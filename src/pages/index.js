@@ -8,8 +8,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <h1>Support Local!</h1>
+    <p>
+      The heart and intent of this site is to continue supporting our local
+      restaurants and businesses throughout the COVID-19 crisis. Socializing and
+      spending time breaking bread together, in person, has temporarily become
+      unsafe. This won't be forever, so we have to continue supporting our local
+      restaurants and business owners through this time.
+    </p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />

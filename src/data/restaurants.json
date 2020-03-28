@@ -1,0 +1,14 @@
+[
+  {
+    "name": "4 by 4 Brewing",
+    "website": "http://www.4by4brewingcompany.com/",
+    "facebook": "https://www.facebook.com/4by4brewingco/",
+    "address": "2811 E. Galloway St. Ste A, Springfield, Missouri 65804",
+    "phone": "4178616400",
+    "delivery": false,
+    "curbside": true,
+    "drive-thru": false,
+    "inside-pickup": false,
+    "Hours": "Open 11am-8pm daily."
+  }
+]
