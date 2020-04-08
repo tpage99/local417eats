@@ -1,8 +1,10 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: `Local 417 Eats`,
     description: `The one stop shop to find out if your local 417 area business is still serving customers`,
-    author: `@gatsbyjs`,
+    author: `@local417eats`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +17,33 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/pages/eats`,
+        name: "eats",
+      },
+    },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        // Accepts all options defined by `babel-plugin-emotion` plugin.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        // Accepts all options defined by `gatsby-plugin-postcss` plugin.
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
