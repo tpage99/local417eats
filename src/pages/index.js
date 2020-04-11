@@ -9,22 +9,38 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <h1 className="m-6 text-4xl">#SupportLocal</h1>
-    <ul style={{ listStyle: `none`, borderBottom: `1px solid #e2e2e6` }}>
+    <ul>
       {data.allMarkdownRemark.edges.map(eats => (
         <li
-          className="max-w-sm rounded overflow-hidden shadow-lg"
+          className="w-full pb-2 lg:max-w-full lg:flex bg-gray-100 rounded-lg"
           key={eats.node.id}
         >
           <Link
             to={eats.node.frontmatter.path}
             style={{ textDecoration: `none` }}
           >
-            <button className="px-6 py-4">
-              <h3 className="font-bold text-xl mb-2">
-                {eats.node.frontmatter.title}
-              </h3>
-            </button>
-            <p className="px-6 py-4">{eats.node.frontmatter.eatsType}</p>
+            <div className="p-4 lg:h-auto lg:w-48 flex bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-gray-800">
+              <img
+                src={eats.node.frontmatter.image}
+                alt={eats.node.frontmatter.title + " logo"}
+              />
+            </div>
+            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+              <div className="mb-4">
+                <div className="text-gray-900 font-bold text-xl">
+                  {eats.node.frontmatter.title}
+                </div>
+                <p className="mb-2 text-sm text-gray-600 flex items-center">
+                  {eats.node.frontmatter.eatsType}
+                </p>
+              </div>
+              <div className="flex items-center">
+                <div className="text-sm">
+                  <p className="text-gray-900 leading-none">Ordering Options</p>
+                  <p className="text-gray-600">Store Hours</p>
+                </div>
+              </div>
+            </div>
           </Link>
         </li>
       ))}
@@ -49,6 +65,7 @@ export const pageQuery = graphql`
             path
             title
             eatsType
+            image
           }
         }
       }

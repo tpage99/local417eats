@@ -6,7 +6,7 @@ import tw from "tailwind.macro"
 import Header from "./header"
 
 const PageContainer = tw.div`
-    bg-gray-200 text-xl w-5/6 p-4 mx-auto
+    bg-gray-300 text-xl w-11/12 mx-auto
 `
 
 const Layout = ({ children }) => {

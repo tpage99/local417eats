@@ -1,7 +1,7 @@
 ---
 path: "/eats/4-by-4-brewing"
 title: "4 By 4 Brewing"
-image: "#"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1586344087/local417eats/4by4logo-symbol.png"
 delivery: false
 curbside: true
 drive-thru: false
