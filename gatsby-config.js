@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 const path = require(`path`)
 
 module.exports = {
@@ -31,7 +35,12 @@ module.exports = {
         name: "eats",
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
+    },
     {
       resolve: `gatsby-plugin-emotion`,
       options: {

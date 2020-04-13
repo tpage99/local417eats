@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import OrderingOptions from "../components/orderingOptions"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -23,22 +24,34 @@ const IndexPage = ({ data }) => (
               <img
                 src={eats.node.frontmatter.image}
                 alt={eats.node.frontmatter.title + " logo"}
+                className="object-cover"
               />
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-              <div className="mb-4">
-                <div className="text-gray-900 font-bold text-xl">
+              <div className="mb-1">
+                <div className="mb-0 text-gray-900 font-bold text-xl">
                   {eats.node.frontmatter.title}
                 </div>
-                <p className="mb-2 text-sm text-gray-600 flex items-center">
+                <p className="mt-0 mb-2 text-sm text-gray-600 flex items-center">
                   {eats.node.frontmatter.eatsType}
                 </p>
               </div>
-              <div className="flex items-center">
-                <div className="text-sm">
-                  <p className="text-gray-900 leading-none">Ordering Options</p>
-                  <p className="text-gray-600">Store Hours</p>
+              <div className="text-sm">
+                <div className="inline-block">
+                  <p className="text-gray-600 inline">Ordering Options: </p>
+                  <OrderingOptions
+                    curbside={eats.node.frontmatter.curbside}
+                    delivery={eats.node.frontmatter.delivery}
+                    drivethru={eats.node.frontmatter.drivethru}
+                    pickup={eats.node.frontmatter.pickup}
+                  />
                 </div>
+                <p className="text-gray-600">
+                  Store Hours:{" "}
+                  <span className="text-black">
+                    {eats.node.frontmatter.hours}
+                  </span>
+                </p>
               </div>
             </div>
           </Link>
@@ -66,6 +79,11 @@ export const pageQuery = graphql`
             title
             eatsType
             image
+            hours
+            curbside
+            delivery
+            drivethru
+            pickup
           }
         }
       }

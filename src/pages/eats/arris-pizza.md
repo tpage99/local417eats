@@ -1,23 +1,19 @@
 ---
 path: "/eats/arris-pizza"
 title: "Arris' Pizza"
-image: "#"
-delivery: true
+image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
 curbside: true
-drive-thru: false
+delivery: true
+drivethru: false
 pickup: true
 category: "eats"
+hours: "11am-2pm and 5pm-9pm every day"
 eatsType: "Pizza"
+website: "http://annexandarris.com/cafe-home/"
+facebook: "https://www.facebook.com/ArrisPizzaSpringfield/"
+address: "1332 E Republic Rd., Springfield, Missouri 65804"
+phone: "4178817260"
 tags: ["pizza", "greek"]
 ---
 
-    "website": "http://annexandarris.com/cafe-home/",
-    "facebook": "https://www.facebook.com/ArrisPizzaSpringfield/",
-    "address": "1332 E Republic Rd., Springfield, Missouri 65804",
-    "phone": "4178817260",
-    "alcohol": false,
-    "hours": "11am-2pm and 5pm-9pm every day",
-    "food": ["Pizza", "Greek"],
-    "area": ["South"],
-    "city": "Springfield",
-    "comments": "Delivery available with a minimum $30 purchase. No delivery fee is charged but tips for drivers are appreciated."
+Delivery available with a minimum \$30 purchase. No delivery fee is charged but tips for drivers are appreciated.

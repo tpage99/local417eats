@@ -1,22 +1,19 @@
 ---
 path: "/eats/archies-italian-eatery"
 title: "Archie's Italian Eatery"
-image: "#"
-delivery: true
+image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
 curbside: true
-drive-thru: false
+delivery: true
+drivethru: false
 pickup: false
 category: "eats"
+hours: "11am-9pm Monday through Saturday"
 eatsType: "Italian"
+website: "https://archiesitalian.com/"
+facebook: "https://www.facebook.com/archiesitalian/"
+address: "1410 E. Republic Rd., Springfield, Missouri 65804"
+phone: "4177201763"
 tags: ["italian"]
 ---
 
-"website": "https://archiesitalian.com/",
-"facebook": "https://www.facebook.com/archiesitalian/",
-"address": "1410 E. Republic Rd., Springfield, Missouri 65804",
-"phone": "4177201763",
-"alcohol": false,
-"hours": "11am-9pm Monday through Saturday",
-"area": ["South"],
-"city": "Springfield",
-"comments": "GrubHub, DoorDash, Postmates, UberEats, carGO, and Toast for delivery."
+Delivery available via GrubHub, DoorDash, Postmates, UberEats, carGO, and Toast.
