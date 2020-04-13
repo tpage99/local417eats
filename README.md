@@ -25,3 +25,9 @@ This project seemed like a good use-case for Tailwind CSS. Here are some helpful
 
 - [Tailwind CSS docs](https://tailwindcss.com/docs/installation)
 - [NY Studio 107 blog post](https://nystudio107.com/blog/using-tailwind-css-with-gatsby-react-emotion-styled-components) was overly complicated. What ended up working much better was [this YouTube video](https://youtu.be/d0v_ouu5mqU) which primarily referenced Tailwind CSS docs...not sure why I didn't start there
+
+### Google Maps API
+
+This project uses the Google Maps API on the individual restaurant "eats" views to display where the restaurant is located. Imported via an iframe through their embedded API which includes a button to open in Google Maps. Other positive, is free! Check out the [docs](https://developers.google.com/maps/documentation/embed/guide#place_mode) for more info.
+
+API keys and other items managed from [Google Cloud Platform Dashboard](https://console.cloud.google.com/).
