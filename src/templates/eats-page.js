@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import OrderingOptions from "../components/orderingOptions"
+import FooterContact from "../components/footerContact"
+import Footer from "../components/footer"
 import { formatPhoneNumber, updateSpace } from "../helpers"
 
 export default function Template({ data }) {
@@ -26,7 +28,7 @@ export default function Template({ data }) {
               </button>
             </div>
             <div>
-              <p className="mt-0 pt-0 text-sm text-gray-600">
+              <p className="mt-0 py-2 text-sm text-gray-600">
                 {eats.frontmatter.address}
               </p>
             </div>
@@ -39,6 +41,10 @@ export default function Template({ data }) {
                 pickup={eats.frontmatter.pickup}
               />
             </div>
+            <div
+              dangerouslySetInnerHTML={{ __html: eats.html }}
+              className="text-xs italic pt-1 pb-2"
+            />
             <div className="py-2">
               <button className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full">
                 <a href={eats.frontmatter.website}>Visit Website</a>
@@ -47,11 +53,7 @@ export default function Template({ data }) {
                 <a href={eats.frontmatter.facebook}>Visit Facebook Page</a>
               </button>
             </div>
-            <div
-              dangerouslySetInnerHTML={{ __html: eats.html }}
-              className="text-xs"
-            />
-            <div className="my-4 p-3 w-full h-48">
+            <div className="my-4 py-3 w-full h-48">
               <iframe
                 src={`https://www.google.com/maps/embed/v1/place?key=${
                   process.env.GATSBY_GOOGLE_MAPS
@@ -61,6 +63,7 @@ export default function Template({ data }) {
               />
             </div>
           </div>
+          <FooterContact />
         </Layout>
       </main>
     </Fragment>

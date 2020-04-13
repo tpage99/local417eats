@@ -2,18 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import OrderingOptions from "../components/orderingOptions"
+import FooterContact from "../components/footerContact"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1 className="m-6 text-4xl">#SupportLocal</h1>
-    <ul>
+    <ul className="pt-4">
       {data.allMarkdownRemark.edges.map(eats => (
         <li
-          className="w-full pb-2 lg:max-w-full lg:flex bg-gray-100 rounded-lg"
+          className="w-full pb-2 lg:max-w-full lg:flex bg-gray-100 rounded-lg rounded-b-none"
           key={eats.node.id}
         >
           <Link
@@ -58,10 +57,7 @@ const IndexPage = ({ data }) => (
         </li>
       ))}
     </ul>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <FooterContact />
   </Layout>
 )
 
