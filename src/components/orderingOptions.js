@@ -1,5 +1,7 @@
 import React from "react"
 
+// initial attempt at ordering options for the tags - turns out orderOps component was more efficient way to go about it
+
 const OrderingOptions = ({ curbside, delivery, drivethru, pickup }) => (
   <div className="inline py-2">
     <div

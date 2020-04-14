@@ -9,7 +9,11 @@ const Header = ({ siteTitle }) => (
     <div>
       <h1>
         <Link to="/">
-          <Logo />
+          <div className="bg-gray-800">
+            <div className="px-4">
+              <Logo />
+            </div>
+          </div>
         </Link>
       </h1>
     </div>

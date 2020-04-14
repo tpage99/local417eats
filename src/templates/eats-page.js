@@ -3,9 +3,8 @@ import { graphql } from "gatsby"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import OrderingOptions from "../components/orderingOptions"
+import OrderOps from "../components/orderOps"
 import FooterContact from "../components/footerContact"
-import Footer from "../components/footer"
 import { formatPhoneNumber, updateSpace } from "../helpers"
 
 export default function Template({ data }) {
@@ -17,41 +16,43 @@ export default function Template({ data }) {
       <main>
         <Layout>
           <div className="px-2">
-            <h1 className="mb-0 pb-0 text-4xl font-bold text-center">
+            <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
               {eats.frontmatter.title}
             </h1>
             <div className="text-center pb-3">
-              <button className="bg-green-500 hover:bg-green-700 text-white text-base font-bold py-1 px-20 rounded-full">
-                <a href={"tel:" + eats.frontmatter.phone}>
-                  Call: {formatPhoneNumber(eats.frontmatter.phone)}
-                </a>
-              </button>
+              <a
+                href={"tel:" + eats.frontmatter.phone}
+                className="bg-green-500 hover:bg-green-700 text-white text-base font-bold py-2 px-20 rounded-full"
+              >
+                Call: {formatPhoneNumber(eats.frontmatter.phone)}
+              </a>
             </div>
             <div>
-              <p className="mt-0 py-2 text-sm text-gray-600">
+              <p className="mt-0 py-2 text-sm text-gray-700">
                 {eats.frontmatter.address}
               </p>
             </div>
             <div className="inline-block text-sm">
-              <p className="text-gray-600 inline">Ordering Options: </p>
-              <OrderingOptions
-                curbside={eats.frontmatter.curbside}
-                delivery={eats.frontmatter.delivery}
-                drivethru={eats.frontmatter.drivethru}
-                pickup={eats.frontmatter.pickup}
-              />
+              <p className="text-gray-700 inline">Ordering Options: </p>
+              <OrderOps orderops={eats.frontmatter.orderops} />
             </div>
             <div
               dangerouslySetInnerHTML={{ __html: eats.html }}
               className="text-xs italic pt-1 pb-2"
             />
             <div className="py-2">
-              <button className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full">
-                <a href={eats.frontmatter.website}>Visit Website</a>
-              </button>
-              <button className="bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full">
-                <a href={eats.frontmatter.facebook}>Visit Facebook Page</a>
-              </button>
+              <a
+                href={eats.frontmatter.website}
+                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full"
+              >
+                Visit Website
+              </a>
+              <a
+                href={eats.frontmatter.facebook}
+                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full"
+              >
+                Visit Facebook Page
+              </a>
             </div>
             <div className="my-4 py-3 w-full h-48">
               <iframe
@@ -82,10 +83,7 @@ export const eatsQuery = graphql`
         facebook
         phone
         address
-        curbside
-        delivery
-        drivethru
-        pickup
+        orderops
       }
     }
   }

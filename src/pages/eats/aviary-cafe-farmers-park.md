@@ -2,10 +2,7 @@
 path: "/eats/aviary-cafe-farmers-park"
 title: "Aviary Cafe - Farmer's Park"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
-curbside: true
-delivery: true
-drivethru: false
-pickup: true
+orderops: "curbside, delivery, pickup"
 category: "eats"
 hours: "8am to 8pm Monday through Saturday and 8am to 6pm on Sundays"
 eatsType: "French"

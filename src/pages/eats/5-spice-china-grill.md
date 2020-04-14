@@ -1,11 +1,8 @@
 ---
 path: "/eats/5-spice-china-grill"
 title: "5 Spice China Grill"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
-curbside: false
-delivery: true
-drivethru: true
-pickup: false
+image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+orderops: "delivery, drivethru"
 category: "eats"
 hours: "11am-10pm every day"
 website: "https://www.eatoceanzen.com/"

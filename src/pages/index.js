@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import OrderingOptions from "../components/orderingOptions"
 import FooterContact from "../components/footerContact"
+import OrderOps from "../components/orderOps"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
                 className="object-cover"
               />
             </div>
-            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r px-4 py-2 flex flex-col justify-between leading-normal">
               <div className="mb-1">
                 <div className="mb-0 text-gray-900 font-bold text-xl">
                   {eats.node.frontmatter.title}
@@ -37,15 +37,10 @@ const IndexPage = ({ data }) => (
               </div>
               <div className="text-sm">
                 <div className="inline-block">
-                  <p className="text-gray-600 inline">Ordering Options: </p>
-                  <OrderingOptions
-                    curbside={eats.node.frontmatter.curbside}
-                    delivery={eats.node.frontmatter.delivery}
-                    drivethru={eats.node.frontmatter.drivethru}
-                    pickup={eats.node.frontmatter.pickup}
-                  />
+                  <p className="text-gray-700 inline">Ordering Options: </p>
+                  <OrderOps orderops={eats.node.frontmatter.orderops} />
                 </div>
-                <p className="text-gray-600">
+                <p className="text-gray-700">
                   Store Hours:{" "}
                   <span className="text-black">
                     {eats.node.frontmatter.hours}
@@ -76,10 +71,7 @@ export const pageQuery = graphql`
             eatsType
             image
             hours
-            curbside
-            delivery
-            drivethru
-            pickup
+            orderops
           }
         }
       }
