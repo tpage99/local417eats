@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => (
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r px-4 py-2 flex flex-col justify-between leading-normal">
               <div className="mb-1">
-                <div className="mb-0 text-gray-900 font-bold text-xl">
+                <div className="mb-0 text-gray-900 font-bold text-xl leading-tight">
                   {eats.node.frontmatter.title}
                 </div>
                 <p className="mt-0 mb-2 text-sm text-gray-600 flex items-center">
