@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => (
                   <p className="text-gray-700 inline">Ordering Options: </p>
                   <OrderOps orderops={eats.node.frontmatter.orderops} />
                 </div>
-                <p className="text-gray-700">
+                <p className="text-gray-700 leading-tight">
                   Store Hours:{" "}
                   <span className="text-black">
                     {eats.node.frontmatter.hours}
