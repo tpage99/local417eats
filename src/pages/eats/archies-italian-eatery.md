@@ -1,7 +1,7 @@
 ---
 path: "/eats/archies-italian-eatery"
 title: "Archie's Italian Eatery"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1587036963/local417eats/Archies.jpg"
 orderops: "curbside, delivery"
 category: "eats"
 hours: "11am-9pm Monday through Saturday"

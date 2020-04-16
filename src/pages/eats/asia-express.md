@@ -1,7 +1,7 @@
 ---
 path: "/eats/asia-express"
 title: "Asia Express"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1587036952/local417eats/Asia-Express.original_1.jpg"
 orderops: "curbside, drivethru, pickup"
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
