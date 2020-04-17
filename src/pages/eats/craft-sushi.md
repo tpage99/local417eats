@@ -5,7 +5,7 @@ image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats
 orderops: "delivery, pickup"
 category: "eats"
 hours: "11am-8pm Monday through Saturday"
-eatsType: "sushi"
+eatsType: "Sushi"
 website: "http://craft-sushi.com/"
 facebook: "https://www.facebook.com/craftsushi"
 address: "1251 East Sunshine Suite 116 Springfield, Missouri 65804"
