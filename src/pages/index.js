@@ -9,6 +9,9 @@ import OrderOps from "../components/orderOps"
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
+    <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
+      All the Eats ({data.allMarkdownRemark.pageInfo.itemCount})
+    </h1>
     <ul className="pt-4">
       {data.allMarkdownRemark.edges.map(eats => (
         <li
@@ -37,7 +40,7 @@ const IndexPage = ({ data }) => (
                 </p>
               </div>
               <div className="text-sm">
-                <div className="inline-block">
+                <div className="inline-block pb-2">
                   <p className="text-gray-700 inline">Ordering Options: </p>
                   <OrderOps orderops={eats.node.frontmatter.orderops} />
                 </div>
@@ -75,6 +78,9 @@ export const pageQuery = graphql`
             orderops
           }
         }
+      }
+      pageInfo {
+        itemCount
       }
     }
   }
