@@ -1,7 +1,7 @@
 ---
 path: "/eats/craft-sushi"
 title: "Craft Sushi"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/JorKKx5rvA0/400x300"
 orderops: "delivery, pickup"
 category: "eats"
 hours: "11am-8pm Monday through Saturday"

@@ -1,7 +1,7 @@
 ---
 path: "/eats/billiards-of-springfield"
 title: "Billiards of Springfield"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/snnhGYNqm44/400x300"
 orderops: "curbside"
 category: "eats"
 hours: "11am-1:30am Monday through Saturday. 11am-12am Sunday"

@@ -12,18 +12,19 @@ const IndexPage = ({ data }) => (
     <ul className="pt-4">
       {data.allMarkdownRemark.edges.map(eats => (
         <li
-          className="w-full pb-2 lg:max-w-full lg:flex bg-gray-100 rounded-lg rounded-b-none"
+          className="w-full pb-2 lg:max-w-full lg:flex rounded-lg"
           key={eats.node.id}
         >
           <Link
             to={eats.node.frontmatter.path}
             style={{ textDecoration: `none` }}
           >
-            <div className="p-4 lg:h-auto lg:w-48 flex bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-gray-800">
+            <div className="lg:h-auto lg:w-48 flex bg-cover rounded-t-md lg:rounded-t-none lg:rounded-l overflow-hidden border border-gray-400">
               <img
                 src={eats.node.frontmatter.image}
-                alt={eats.node.frontmatter.title + " logo"}
-                className="object-cover"
+                alt={eats.node.frontmatter.eatsType + " food"}
+                className="h-full w-full object-cover"
+                loading="lazy"
               />
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r px-4 py-2 flex flex-col justify-between leading-normal">
