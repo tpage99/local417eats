@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-// import Search from "../components/search"
+import Search from "../components/search"
 
 import Logo from "../components/logo"
 
@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    {/* <Search collapse indices={searchIndices} /> */}
+    <Search collapse indices={searchIndices} />
   </header>
 )
 
