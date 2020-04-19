@@ -1,3 +1,5 @@
+// removed this from config import for the moment due to not working and trying to hard-code variables
+
 const pageQuery = `{
   pages: allMarkdownRemark(
     filter: {

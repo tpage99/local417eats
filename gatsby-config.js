@@ -1,10 +1,36 @@
 require("dotenv").config({
-  path: `.env`,
+  path: `.env.${process.env.NODE_ENV}`,
 })
 
 const path = require(`path`)
 
-const queries = require("./src/utils/algolia")
+const eatsAlgoliaQuery = `{
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            tags
+            eatsType
+            category
+            orderops
+          }
+        }
+      }
+    }
+  }`
+
+const queries = [
+  {
+    query: eatsAlgoliaQuery,
+    transformer: ({ data }) =>
+      data.allMarkdownRemark.edges.map(({ node }) => node), // optional
+    settings: {
+      // optional, any index settings
+    },
+  },
+]
 
 module.exports = {
   siteMetadata: {
@@ -13,6 +39,16 @@ module.exports = {
     author: `@local417eats`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -41,15 +77,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [`gatsby-remark-responsive-iframe`],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appID: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 10000, // default: 1000
       },
     },
     `gatsby-plugin-styled-components`,

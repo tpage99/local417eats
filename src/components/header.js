@@ -5,6 +5,11 @@ import Search from "../components/search"
 
 import Logo from "../components/logo"
 
+const searchIndices = [
+  { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Eats`, title: `Eats Posts`, hitComp: `EatsHit` },
+]
+
 const Header = ({ siteTitle }) => (
   <header>
     <div>
