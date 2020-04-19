@@ -1,7 +1,7 @@
 ---
 path: "/eats/antojos-tacos-y-mas"
 title: "Antojos Tacos y Mas"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1587036967/local417eats/antonojos.jpg"
+image: "https://source.unsplash.com/ZQf4jzkpz1k/400x300"
 orderops: "curbside, delivery"
 category: "eats"
 hours: "11am-8pm every day"

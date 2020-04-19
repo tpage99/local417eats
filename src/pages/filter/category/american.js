@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import FooterContact from "../components/footerContact"
-import OrderOps from "../components/orderOps"
-import FilterButton from "../components/filterButton"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import FooterContact from "../../../components/footerContact"
+import OrderOps from "../../../components/orderOps"
 
-const IndexPage = ({ data }) => (
+const FilterAmericanPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Filter by American Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      All the Eats{" "}
+      Filter results "American"{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
@@ -61,15 +60,14 @@ const IndexPage = ({ data }) => (
       ))}
     </ul>
     <FooterContact />
-    <FilterButton />
   </Layout>
 )
 
 export const pageQuery = graphql`
-  query EatsQuery {
+  query FilterAmericanQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { frontmatter: { category: { eq: "eats" } } }
+      filter: { frontmatter: { tags: { eq: "american" } } }
     ) {
       edges {
         node {
@@ -91,4 +89,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default IndexPage
+export default FilterAmericanPage

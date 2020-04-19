@@ -1,7 +1,7 @@
 ---
 path: "/eats/architect-coffee-co"
 title: "Architect Coffee Co"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1587036960/local417eats/Architect_Coffee.jpg"
+image: "https://source.unsplash.com/tNALoIZhqVM/400x300"
 orderops: "pickup"
 category: "eats"
 hours: "7am-9pm Monday through Friday and 8am-9pm Saturday"
