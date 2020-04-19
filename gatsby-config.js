@@ -4,10 +4,12 @@ require("dotenv").config({
 
 const path = require(`path`)
 
+const queries = require("./src/utils/algolia")
+
 module.exports = {
   siteMetadata: {
     title: `Local 417 Eats`,
-    description: `The one stop shop to find out if your local 417 area business is still serving customers`,
+    description: `The one stop to find and support your favorite local 417 area restaurants. No chains. All local.`,
     author: `@local417eats`,
   },
   plugins: [
@@ -41,6 +43,16 @@ module.exports = {
         plugins: [`gatsby-remark-responsive-iframe`],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-algolia`,
+    //   options: {
+    //     appID: process.env.GATSBY_ALGOLIA_APP_ID,
+    //     apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
+    //     queries,
+    //     chunkSize: 10000, // default: 1000
+    //   },
+    // },
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-emotion`,
       options: {

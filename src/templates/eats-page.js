@@ -61,6 +61,7 @@ export default function Template({ data }) {
                 }&q=${updateSpace(eats.frontmatter.address)}`}
                 width="100%"
                 height="100%"
+                title={eats.frontmatter.title + " on Google Maps"}
               />
             </div>
           </div>

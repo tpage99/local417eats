@@ -17,6 +17,15 @@ Visit `http://localhost:8000/` to view the site
 
 Gatsby is awesome and you should experience hot reloads on save. Only instance that would be necessary to stop and restart local server are changes to config or GraphQL queries/schemas.
 
+## Environment Variables
+
+This project uses several environment variables for development. You will need to create a `.env` file in order to put your keys in place. Reference the `gatsby-config` file to determine what environment variables are required. Once hosted, these are added to the backend through Netlify's build processes.
+
+Current environment variables required to function properly:
+
+- Google Maps API
+- Algolia Search
+
 ## Resources 📕
 
 ### Tailwind CSS
@@ -31,3 +40,15 @@ This project seemed like a good use-case for Tailwind CSS. Here are some helpful
 This project uses the Google Maps API on the individual restaurant "eats" views to display where the restaurant is located. Imported via an iframe through their embedded API which includes a button to open in Google Maps. Other positive, is free! Check out the [docs](https://developers.google.com/maps/documentation/embed/guide#place_mode) for more info.
 
 API keys and other items managed from [Google Cloud Platform Dashboard](https://console.cloud.google.com/).
+
+### Search with Algolia
+
+Decided to use Algolia for search. Mainly because they have a free tier and will help speed up development. Not to mention it's a well-liked service with plenty of features.
+
+- [Adding Search with Algolia from Gatsby Docs](https://www.gatsbyjs.org/docs/adding-search-with-algolia/)
+
+### To-Do's
+
+1. Remove emotion in favor of styled-components
+   1. Originally installed emotion for Tailwind CSS but not worth the extra bulk
+   2. Styled-components is bulkier, but does come with [icons](https://styled-icons.js.org/). Tradeoff seems to be worth it for quicker development
