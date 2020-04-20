@@ -2,7 +2,7 @@
 path: "/eats/jamaican-patty-co"
 title: "Jamaican Patty Co"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, pickup"
+orderops: "delivery, takeout"
 category: "eats"
 hours: "11am-6pm Tuesday through Friday. 11am-7pm Saturday. 12pm-3pm Sunday"
 eatsType: "Jamaican"

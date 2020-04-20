@@ -2,7 +2,7 @@
 path: "/eats/hold-fast-brewing"
 title: "Hold Fast Brewing"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, pickup"
+orderops: "curbside, takeout"
 category: "eats"
 hours: "3pm-7pm every day"
 eatsType: "Brewery"

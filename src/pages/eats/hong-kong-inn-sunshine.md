@@ -2,7 +2,7 @@
 path: "/eats/hong-kong-inn-sunshine"
 title: "Hong Kong Inn - Sunshine"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "drivethru, pickup"
+orderops: "drive-thru, takeout"
 category: "eats"
 hours: "10:30am-10pm every day"
 eatsType: "Chinese"

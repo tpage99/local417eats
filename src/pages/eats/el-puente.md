@@ -2,7 +2,7 @@
 path: "/eats/el-puente"
 title: "El Puente"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, pickup"
+orderops: "delivery, curbside, takeout"
 category: "eats"
 hours: "11am-9pm Sunday through Thursday. 9am-9pm Friday. 11am-10pm Saturday"
 eatsType: "Mexican"

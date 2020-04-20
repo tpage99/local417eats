@@ -2,7 +2,7 @@
 path: "/eats/arris-pizza"
 title: "Arris' Pizza"
 image: "https://source.unsplash.com/HHhYcbwiXMc/400x300"
-orderops: "curbside, delivery, pickup"
+orderops: "curbside, delivery, takeout"
 category: "eats"
 hours: "11am-2pm and 5pm-9pm every day"
 eatsType: "Pizza"

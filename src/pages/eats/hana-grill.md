@@ -2,7 +2,7 @@
 path: "/eats/hana-grill"
 title: "Hana Grill"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, pickup"
+orderops: "curbside, takeout"
 category: "eats"
 hours: "4pm-8pm every day"
 eatsType: "Japanese"

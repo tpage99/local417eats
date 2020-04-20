@@ -2,7 +2,7 @@
 path: "/eats/5-spice-china-grill"
 title: "5 Spice China Grill"
 image: "https://source.unsplash.com/L1ZhjK-R6uc/400x300"
-orderops: "delivery, drivethru"
+orderops: "delivery, drive-thru"
 category: "eats"
 hours: "11am-10pm every day"
 website: "https://www.eatoceanzen.com/"

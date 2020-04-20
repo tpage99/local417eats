@@ -2,7 +2,7 @@
 path: "/eats/cherry-picker"
 title: "Cherry Picker Package x Fare"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "pickup"
+orderops: "takeout"
 category: "eats"
 hours: "7am-10pm Monday through Thursday. 7am-12am Friday and Saturday"
 eatsType: "Bar"

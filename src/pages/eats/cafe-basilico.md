@@ -2,7 +2,7 @@
 path: "/eats/cafe-basilico"
 title: "Cafe Basilico"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "pickup"
+orderops: "takeout"
 category: "eats"
 hours: "11am-3pm Tuesday and Wednesday. 11am-8pm Thursday through Saturday. 9am-3pm on Sunday"
 eatsType: "Italian"
