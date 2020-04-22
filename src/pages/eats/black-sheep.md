@@ -10,7 +10,7 @@ website: "https://www.blaaacksheep.com/"
 facebook: "https://www.facebook.com/BSASAP"
 address: "2420 E Sunshine Springfield, Missouri 65804"
 phone: "4173513595"
-tags: ["american", "burger", "milkshakes"]
+tags: ["american", "burgers", "milkshakes"]
 ---
 
 Delivery available via carGO and GrubHub.
