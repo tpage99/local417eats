@@ -6,11 +6,11 @@ import SEO from "../../../components/seo"
 import FooterContact from "../../../components/footerContact"
 import OrderOps from "../../../components/orderOps"
 
-const FilterAmericanPage = ({ data }) => (
+const FilterItalianPage = ({ data }) => (
   <Layout>
-    <SEO title="Filter by American Eats" />
+    <SEO title="Filter by Italian Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      Filtered results for "American"{" "}
+      Filtered results for "Italian"{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
@@ -64,10 +64,10 @@ const FilterAmericanPage = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query FilterAmericanQuery {
+  query FilterItalianQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { frontmatter: { tags: { eq: "american" } } }
+      filter: { frontmatter: { tags: { eq: "italian" } } }
     ) {
       edges {
         node {
@@ -89,4 +89,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default FilterAmericanPage
+export default FilterItalianPage

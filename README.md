@@ -43,7 +43,7 @@ API keys and other items managed from [Google Cloud Platform Dashboard](https://
 
 ### Search with Algolia
 
-Decided to use Algolia for search. Mainly because they have a free tier and will help speed up development. Not to mention it's a well-liked service with plenty of features.
+Decided to use Algolia for search (?Maybe?). Mainly because they have a free tier and will help speed up development. Not to mention it's a well-liked service with plenty of features.
 
 - [Adding Search with Algolia from Gatsby Docs](https://www.gatsbyjs.org/docs/adding-search-with-algolia/)
 
@@ -52,3 +52,6 @@ Decided to use Algolia for search. Mainly because they have a free tier and will
 1. Remove emotion in favor of styled-components
    1. Originally installed emotion for Tailwind CSS but not worth the extra bulk
    2. Styled-components is bulkier, but does come with [icons](https://styled-icons.js.org/). Tradeoff seems to be worth it for quicker development
+2. Consider using Google Custom Search
+   1. https://developers.google.com/custom-search
+   2. Why don't more people use this? Supposed to be all client side. Maybe write a Gatsby plugin?
