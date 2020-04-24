@@ -31,7 +31,6 @@ const IndexPage = ({ data }) => (
                 src={eats.node.frontmatter.image}
                 alt={eats.node.frontmatter.eatsType + " food"}
                 className="h-full w-full object-cover"
-                loading="lazy"
               />
             </div>
             <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r px-4 py-2 flex flex-col justify-between leading-normal">

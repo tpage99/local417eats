@@ -37,13 +37,13 @@ const FilterFoodPage = () => (
           Tacos
         </Link>
         <Link
-          to="/filter/area/cashew-chicken"
+          to="/filter/food/cashew-chicken"
           className="m-2 max-w-sm rounded overflow-hidden shadow-lg border border-gray-400 px-6 py-4 font-bold text-xl"
         >
           Cashew Chicken
         </Link>
         <Link
-          to="/filter/area/pasta"
+          to="/filter/food/pasta"
           className="m-2 max-w-sm rounded overflow-hidden shadow-lg border border-gray-400 px-6 py-4 font-bold text-xl"
         >
           Pasta
