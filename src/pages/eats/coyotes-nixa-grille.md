@@ -5,7 +5,7 @@ image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats
 orderops: "delivery, curbside, takeout"
 category: "eats"
 hours: "11am-11pm Sunday through Thursday. 11am-12am Friday and Saturday"
-eatsType: "Bar"
+eatsType: "Bar and Grill"
 website: "http://www.coyotesnixagrille.com/"
 facebook: "https://www.facebook.com/Coyotes-Nixa-Grille-117608998264697"
 address: "807 N Main St Nixa, Missouri 65714"

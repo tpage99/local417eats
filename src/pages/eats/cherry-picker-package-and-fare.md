@@ -1,5 +1,5 @@
 ---
-path: "/eats/cherry-picker"
+path: "/eats/cherry-picker-package-and-fare"
 title: "Cherry Picker Package x Fare"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
 orderops: "takeout"

@@ -39,7 +39,7 @@ const AboutPage = () => (
           Springfield Missouri Convention and Visitors Buruea's local lists
         </a>{" "}
         or{" "}
-        <a href="bit.ly/supportSGFrestaurants">
+        <a href="https://bit.ly/supportSGFrestaurants">
           Kim Mossberger's exhaustive curated list of eateries still operating
         </a>{" "}
         in this time of crisis.

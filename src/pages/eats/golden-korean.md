@@ -5,7 +5,7 @@ image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats
 orderops: "delivery, curbside"
 category: "eats"
 hours: "11am-8pm Wednesday through Monday"
-eatsType: "korean"
+eatsType: "Korean"
 website: "https://www.facebook.com/Golden-Korean-113843188664619"
 facebook: "https://www.facebook.com/Golden-Korean-113843188664619"
 address: "1406 W Sunshine St Ste A Springfield, Missouri 65807"
