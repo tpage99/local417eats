@@ -32,9 +32,15 @@ export default function Template({ data }) {
                 {eats.frontmatter.address}
               </p>
             </div>
-            <div className="inline-block text-sm">
-              <p className="text-gray-700 inline">Ordering Options: </p>
-              <OrderOps orderops={eats.frontmatter.orderops} />
+            <div className="text-sm">
+              <div className="inline-block pb-2">
+                <p className="text-gray-700 inline">Ordering Options: </p>
+                <OrderOps orderops={eats.frontmatter.orderops} />
+              </div>
+              <p className="text-gray-700 leading-tight">
+                Hours:{" "}
+                <span className="text-black">{eats.frontmatter.hours}</span>
+              </p>
             </div>
             <div
               dangerouslySetInnerHTML={{ __html: eats.html }}
@@ -85,6 +91,7 @@ export const eatsQuery = graphql`
         phone
         address
         orderops
+        hours
       }
     }
   }

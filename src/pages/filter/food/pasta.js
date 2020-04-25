@@ -1,13 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../../../components/layout"
+import FoodLayout from "../../../components/foodLayout"
 import SEO from "../../../components/seo"
-import FooterContact from "../../../components/footerContact"
 import OrderOps from "../../../components/orderOps"
 
 const FilterPastaPage = ({ data }) => (
-  <Layout>
+  <FoodLayout>
     <SEO title="Filter by Pasta Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
       Filtered results for "Pasta"{" "}
@@ -47,7 +46,7 @@ const FilterPastaPage = ({ data }) => (
                   <OrderOps orderops={eats.node.frontmatter.orderops} />
                 </div>
                 <p className="text-gray-700 leading-tight">
-                  Store Hours:{" "}
+                  Hours:{" "}
                   <span className="text-black">
                     {eats.node.frontmatter.hours}
                   </span>
@@ -58,8 +57,7 @@ const FilterPastaPage = ({ data }) => (
         </li>
       ))}
     </ul>
-    <FooterContact />
-  </Layout>
+  </FoodLayout>
 )
 
 export const pageQuery = graphql`

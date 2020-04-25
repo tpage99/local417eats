@@ -5,11 +5,11 @@ import FoodLayout from "../../../components/foodLayout"
 import SEO from "../../../components/seo"
 import OrderOps from "../../../components/orderOps"
 
-const FilterTacosPage = ({ data }) => (
+const FilterRepublicPage = ({ data }) => (
   <FoodLayout>
-    <SEO title="Filter by Tacos Eats" />
+    <SEO title="Filter by Republic area Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      Filtered results for "Tacos"{" "}
+      Filtered results for "Republic"{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
@@ -61,10 +61,10 @@ const FilterTacosPage = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query FilterTacosQuery {
+  query FilterRepublicQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { frontmatter: { tags: { eq: "tacos" } } }
+      filter: { frontmatter: { tags: { eq: "republic" } } }
     ) {
       edges {
         node {
@@ -86,4 +86,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default FilterTacosPage
+export default FilterRepublicPage

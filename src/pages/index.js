@@ -1,14 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import FoodLayout from "../components/foodLayout"
 import SEO from "../components/seo"
-import FooterContact from "../components/footerContact"
 import OrderOps from "../components/orderOps"
-import FilterButton from "../components/filterButton"
 
 const IndexPage = ({ data }) => (
-  <Layout>
+  <FoodLayout>
     <SEO title="Home" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
       All the Eats{" "}
@@ -29,7 +27,10 @@ const IndexPage = ({ data }) => (
             <div className="lg:h-auto lg:w-48 flex bg-cover rounded-t-md lg:rounded-t-none lg:rounded-l overflow-hidden border border-gray-400">
               <img
                 src={eats.node.frontmatter.image}
-                alt={eats.node.frontmatter.eatsType + " food"}
+                alt={
+                  eats.node.frontmatter.eatsType +
+                  " food. Image courtesy of Unsplash"
+                }
                 className="h-full w-full object-cover"
               />
             </div>
@@ -48,7 +49,7 @@ const IndexPage = ({ data }) => (
                   <OrderOps orderops={eats.node.frontmatter.orderops} />
                 </div>
                 <p className="text-gray-700 leading-tight">
-                  Store Hours:{" "}
+                  Hours:{" "}
                   <span className="text-black">
                     {eats.node.frontmatter.hours}
                   </span>
@@ -59,9 +60,7 @@ const IndexPage = ({ data }) => (
         </li>
       ))}
     </ul>
-    <FooterContact />
-    <FilterButton />
-  </Layout>
+  </FoodLayout>
 )
 
 export const pageQuery = graphql`
