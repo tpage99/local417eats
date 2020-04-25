@@ -22,7 +22,7 @@ export default function Template({ data }) {
             <div className="text-center pb-3">
               <a
                 href={"tel:" + eats.frontmatter.phone}
-                className="bg-green-500 hover:bg-green-700 text-white text-base font-bold py-2 px-20 rounded-full"
+                className="bg-green-500 hover:bg-green-700 text-white text-base font-bold py-2 px-20 rounded-full no-underline"
               >
                 Call: {formatPhoneNumber(eats.frontmatter.phone)}
               </a>
@@ -43,13 +43,13 @@ export default function Template({ data }) {
             <div className="py-2">
               <a
                 href={eats.frontmatter.website}
-                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full"
+                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full no-underline"
               >
                 Visit Website
               </a>
               <a
                 href={eats.frontmatter.facebook}
-                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full"
+                className="mr-1 bg-blue-500 hover:bg-blue-700 text-white text-base font-bold py-1 px-2 rounded-full no-underline"
               >
                 Visit Facebook Page
               </a>

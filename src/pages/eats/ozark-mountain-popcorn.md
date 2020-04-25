@@ -10,7 +10,7 @@ website: "https://www.popcorninspringfieldmo.com/"
 facebook: "https://www.facebook.com/OzarkMountainPopcorn"
 address: "1433 S. Glenstone Ave. Springfield, Missouri 65804"
 phone: "4178665555"
-tags: ["popcorn", "pasta"]
+tags: ["popcorn"]
 ---
 
 Delivery available via restaurant.

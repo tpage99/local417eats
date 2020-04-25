@@ -11,25 +11,31 @@ const FilterPage = () => (
       <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by...
       </h1>
-      <div className="pt-4 flex flex-wrap text-center">
-        <Link
-          to="/filter/category/"
-          className="m-2 max-w-sm rounded overflow-hidden shadow-lg border border-gray-400 px-6 py-4 font-bold text-xl"
-        >
-          Category
-        </Link>
-        <Link
-          to="/filter/food/"
-          className="m-2 max-w-sm rounded overflow-hidden shadow-lg border border-gray-400 px-6 py-4 font-bold text-xl"
-        >
-          Food
-        </Link>
-        <Link
-          to="/filter/area/"
-          className="m-2 max-w-sm rounded overflow-hidden shadow-lg border border-gray-400 px-6 py-4 font-bold text-xl"
-        >
-          Area
-        </Link>
+      <div className="pt-4 block">
+        <div className="mx-1 mb-10 inline-block">
+          <Link
+            to="/filter/category/"
+            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+          >
+            Category
+          </Link>
+        </div>
+        <div className="mx-1 mb-10 inline-block">
+          <Link
+            to="/filter/food/"
+            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+          >
+            Food
+          </Link>
+        </div>
+        <div className="mx-1 mb-10 inline-block">
+          <Link
+            to="/filter/area/"
+            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+          >
+            Area
+          </Link>
+        </div>
       </div>
     </div>
   </Layout>
