@@ -10,5 +10,5 @@ website: "https://flatcreekrestaurants.com/"
 facebook: "https://www.facebook.com/flatcreekrepublic"
 address: "772 E. Hwy 60 Republic, Missouri 65738"
 phone: "4177325441"
-tags: ["american", "bar"]
+tags: ["american", "bar", "republic"]
 ---

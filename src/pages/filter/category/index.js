@@ -11,40 +11,40 @@ const FilterCategoryPage = () => (
       <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by category
       </h1>
-      <div className="pt-4 block">
-        <div className="mx-1 mb-10 inline-block">
+      <ul className="mx-auto text-center">
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/category/american"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 no-underline"
           >
             American
           </Link>
-        </div>
-        <div className="mx-1 mb-10 inline-block">
-          <Link
-            to="/filter/category/italian"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
-          >
-            Italian
-          </Link>
-        </div>
-        <div className="mx-1 mb-10 inline-block">
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/category/chinese"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 no-underline"
           >
             Chinese
           </Link>
-        </div>
-        <div className="mx-1 mb-10 inline-block">
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/category/italian"
+            className="text-white text-2xl font-semibold py-4 px-32 no-underline"
+          >
+            Italian
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/category/mexican"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 no-underline"
           >
             Mexican
           </Link>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </Layout>
 )

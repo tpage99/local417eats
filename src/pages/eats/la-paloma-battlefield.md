@@ -1,6 +1,6 @@
 ---
-path: "/eats/la-paloma-sunshine"
-title: "La Paloma - Sunshine"
+path: "/eats/la-paloma-battlefield"
+title: "La Paloma - Battlefield"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
 orderops: "delivery, curbside, takeout, order online"
 category: "eats"

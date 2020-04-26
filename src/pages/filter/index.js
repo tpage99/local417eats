@@ -11,32 +11,32 @@ const FilterPage = () => (
       <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by...
       </h1>
-      <div className="pt-4 block">
-        <div className="mx-1 mb-10 inline-block">
-          <Link
-            to="/filter/category/"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
-          >
-            Category
-          </Link>
-        </div>
-        <div className="mx-1 mb-10 inline-block">
-          <Link
-            to="/filter/food/"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
-          >
-            Food
-          </Link>
-        </div>
-        <div className="mx-1 mb-10 inline-block">
+      <ul className="mx-auto text-center">
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/area/"
-            className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-4 px-6 border border-gray-400 rounded-full shadow-lg no-underline"
+            className="text-white text-2xl font-semibold py-4 px-32 no-underline"
           >
             Area
           </Link>
-        </div>
-      </div>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/category/"
+            className="text-white text-2xl font-semibold py-4 px-24 no-underline"
+          >
+            Category
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/food/"
+            className="text-white text-2xl font-semibold py-4 px-32 no-underline"
+          >
+            Food
+          </Link>
+        </li>
+      </ul>
     </div>
   </Layout>
 )

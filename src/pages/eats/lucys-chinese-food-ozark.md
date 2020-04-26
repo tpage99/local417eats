@@ -10,5 +10,5 @@ website: "http://lucyschinesefood.com/"
 facebook: "https://www.facebook.com/LucysChineseFood"
 address: "1704 W James River Rd, Ozark, MO 65721"
 phone: "4174853545"
-tags: ["chinese", "cashew chicken"]
+tags: ["chinese", "cashew chicken", "ozark"]
 ---

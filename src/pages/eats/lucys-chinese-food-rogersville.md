@@ -10,5 +10,5 @@ website: "http://lucyschinesefood.com/"
 facebook: "https://www.facebook.com/LucysChineseFood"
 address: "319 S Main Suite T, Rogersville Mo 65742"
 phone: "4179296203"
-tags: ["chinese", "cashew chicken"]
+tags: ["chinese", "cashew chicken", "rogersville"]
 ---

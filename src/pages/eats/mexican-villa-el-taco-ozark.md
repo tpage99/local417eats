@@ -10,5 +10,5 @@ website: "http://www.mexicanvilla.net/"
 facebook: "https://www.facebook.com/Mexican-Villa-Restaurants-187876034583427"
 address: "1595 West Jackson, Ozark, MO"
 phone: "4175820600"
-tags: ["mexican", "tacos", "burritos"]
+tags: ["mexican", "tacos", "burritos", "ozark"]
 ---

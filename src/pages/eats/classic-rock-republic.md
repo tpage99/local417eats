@@ -10,7 +10,7 @@ website: "https://www.facebook.com/ClassicRockCoffee1230USHwy60"
 facebook: "https://www.facebook.com/ClassicRockCoffee1230USHwy60"
 address: "1230 US Highway 60 E Republic, Missouri 65738"
 phone: "4176472233"
-tags: ["coffee"]
+tags: ["coffee", "republic"]
 ---
 
 Delivery available via GrubHub.

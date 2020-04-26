@@ -10,7 +10,7 @@ website: "https://www.facebook.com/bigalssubs"
 facebook: "https://www.facebook.com/bigalssubs"
 address: "206 N. 1st St. Ozark, MO 65721"
 phone: "4174945007"
-tags: ["subs", "pizza", "ice cream", "smoothies"]
+tags: ["subs", "pizza", "ice cream", "smoothies", "ozark"]
 ---
 
 Delivery available via restaurant.

@@ -10,5 +10,5 @@ website: "https://www.facebook.com/Amdonutsandcoffee"
 facebook: "https://www.facebook.com/Amdonutsandcoffee"
 address: "300 E Jackson St Willard, Missouri 65781"
 phone: "4177124809"
-tags: ["food truck", "donuts", "coffee"]
+tags: ["food truck", "donuts", "coffee", "willard"]
 ---

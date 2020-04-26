@@ -10,5 +10,5 @@ website: "https://www.facebook.com/fattonyspizzakitchen/"
 facebook: "https://www.facebook.com/fattonyspizzakitchen/"
 address: "Republic, MO"
 phone: "4178609136"
-tags: ["pizza", "food truck"]
+tags: ["pizza", "food truck", "republic"]
 ---

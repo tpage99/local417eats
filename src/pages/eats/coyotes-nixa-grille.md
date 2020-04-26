@@ -10,7 +10,7 @@ website: "http://www.coyotesnixagrille.com/"
 facebook: "https://www.facebook.com/Coyotes-Nixa-Grille-117608998264697"
 address: "807 N Main St Nixa, Missouri 65714"
 phone: "4177256803"
-tags: ["bar", "grill", "american"]
+tags: ["bar", "grill", "american", "nixa"]
 ---
 
 Delivery available via restaurant.
