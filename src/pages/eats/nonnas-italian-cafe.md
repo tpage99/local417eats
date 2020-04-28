@@ -2,7 +2,7 @@
 path: "/eats/nonnas-italian-cafe"
 title: "Nonna's Italian Cafe"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, order online"
+orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "4pm-7pm Tuesday through Saturday"
 eatsType: "Italian"

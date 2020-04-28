@@ -2,7 +2,7 @@
 path: "/eats/chameleon-cuisine"
 title: "Chameleon Cuisine"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "food truck"
+orderops: ["food truck"]
 category: "eats"
 hours: "Hours vary"
 eatsType: "Vegetarian/Vegan"

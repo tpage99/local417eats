@@ -2,7 +2,7 @@
 path: "/eats/maso-pizza-bar"
 title: "Maso Pizza Bar"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "takeout"
+orderops: ["takeout"]
 category: "eats"
 hours: "3:30pm-10pm Monday through Thursday. 3:30pm-11pm Friday and Saturday"
 eatsType: "Pizza"

@@ -7,7 +7,7 @@ import SEO from "../../components/seo"
 const FilterPage = () => (
   <Layout>
     <SEO title="Filter the Eats" />
-    <div className="h-screen">
+    <div className="h-full mb-20">
       <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by...
       </h1>
@@ -34,6 +34,14 @@ const FilterPage = () => (
             className="text-white text-2xl font-semibold py-4 px-32 no-underline"
           >
             Food
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/ordering-options/"
+            className="text-white text-2xl font-semibold py-4 px-16 no-underline"
+          >
+            Ordering Options
           </Link>
         </li>
       </ul>

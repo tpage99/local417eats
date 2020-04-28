@@ -2,7 +2,7 @@
 path: "/eats/societea"
 title: "Societea"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, takeout"
+orderops: ["curbside", "takeout"]
 category: "eats"
 hours: "10am-6pm every day"
 eatsType: "Bubble Tea"

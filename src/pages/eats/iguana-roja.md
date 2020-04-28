@@ -2,7 +2,7 @@
 path: "/eats/iguana-roja"
 title: "Iguana Roja"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout"
+orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11:30am-9pm Monday through Thursday. 11:30am-10pm Friday and Saturday"
 eatsType: "Latin American"

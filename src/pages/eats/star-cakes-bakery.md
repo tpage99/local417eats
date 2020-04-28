@@ -2,7 +2,7 @@
 path: "/eats/star-cakes-bakery"
 title: "Star Cakes Bakery"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout"
+orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-5:30pm Monday through Friday. 11am-4pm Saturday"
 eatsType: "Bakery"

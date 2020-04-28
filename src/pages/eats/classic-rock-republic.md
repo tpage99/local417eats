@@ -2,7 +2,7 @@
 path: "/eats/classic-rock-republic"
 title: "Classic Rock - Republic"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, drive-thru"
+orderops: ["delivery", "drive-thru"]
 category: "eats"
 hours: "6am-8pm Monday through Thursday. 6am-9pm Friday. 7am-9pm Saturday and Sunday"
 eatsType: "Coffee"

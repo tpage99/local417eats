@@ -2,7 +2,7 @@
 path: "/eats/country-girls-espresso"
 title: "Country Girls Espresso"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "drive-thru, takeout"
+orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "6am-7pm Monday through Saturday"
 eatsType: "Coffee"

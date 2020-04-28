@@ -2,7 +2,7 @@
 path: "/eats/just-one-more"
 title: "Just One More"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside"
+orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11:30am-1:30am Monday through Saturday. 12pm-12am Sunday"
 eatsType: "Pool and Billiard Hall"

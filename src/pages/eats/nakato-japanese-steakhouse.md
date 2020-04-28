@@ -2,7 +2,7 @@
 path: "/eats/nakato-japanese-steakhouse"
 title: "Nakato Japanese Steakhouse"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside"
+orderops: ["curbside"]
 category: "eats"
 hours: "11am-9pm every day"
 eatsType: "Japanese"

@@ -2,7 +2,7 @@
 path: "/eats/purple-burrito-campbell"
 title: "Purple Burrito - Campbell"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, order online"
+orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-7pm Monday through Saturday"
 eatsType: "Mexican"

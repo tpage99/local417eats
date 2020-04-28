@@ -2,7 +2,7 @@
 path: "/eats/mudhouse-coffee"
 title: "Mudhouse Coffee"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout, order online"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "7am-5pm Monday through Saturday"
 eatsType: "Coffee"

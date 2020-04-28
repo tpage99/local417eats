@@ -60,7 +60,7 @@ export default function Template({ data }) {
                 Visit Facebook Page
               </a>
             </div>
-            <div className="my-4 py-3 w-full h-48">
+            <div className="my-4 w-full h-48">
               <iframe
                 src={`https://www.google.com/maps/embed/v1/place?key=${
                   process.env.GATSBY_GOOGLE_MAPS
@@ -92,6 +92,7 @@ export const eatsQuery = graphql`
         address
         orderops
         hours
+        tags
       }
     }
   }

@@ -2,7 +2,7 @@
 path: "/eats/smiths-restaurant"
 title: "Smith's Restaurant"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout, order online"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "4pm-8pm Tuesday through Saturday"
 eatsType: "American"

@@ -2,7 +2,7 @@
 path: "/eats/archies-italian-eatery"
 title: "Archie's Italian Eatery"
 image: "https://source.unsplash.com/GFW3dJRiMsQ/400x300"
-orderops: "curbside, delivery"
+orderops: ["curbside", "delivery"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
 eatsType: "Italian"

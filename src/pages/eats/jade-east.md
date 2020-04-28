@@ -2,7 +2,7 @@
 path: "/eats/jade-east"
 title: "Jade East"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, drive-thru"
+orderops: ["delivery", "drive-thru"]
 category: "eats"
 hours: "11am-10pm Sunday through Thursday. 11am-10:30pm Friday. 11am-9pm Sunday"
 eatsType: "Chinese"

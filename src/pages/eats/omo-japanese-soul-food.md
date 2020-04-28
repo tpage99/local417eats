@@ -2,7 +2,7 @@
 path: "/eats/omo-japanese-soul-food"
 title: "OMO Japanese Soul Food"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, takeout, order online"
+orderops: ["delivery", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday. 11am-8pm Sunday"
 eatsType: "Japanese"

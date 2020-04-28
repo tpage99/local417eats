@@ -2,7 +2,7 @@
 path: "/eats/neighborhood-pizza-cafe"
 title: "Neighborhood Pizza Cafe"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, order online"
+orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-8:30pm Monday through Saturday"
 eatsType: "Pizza"

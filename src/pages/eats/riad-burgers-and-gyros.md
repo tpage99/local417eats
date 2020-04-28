@@ -2,7 +2,7 @@
 path: "/eats/riad-burgers-and-gyros"
 title: "Riad Burgers and Gyros"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout, order online"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "Bar and Grill"

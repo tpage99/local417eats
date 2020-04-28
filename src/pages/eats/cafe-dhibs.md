@@ -2,7 +2,7 @@
 path: "/eats/cafe-dhibs"
 title: "Cafe Dhibs"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, takeout"
+orderops: ["curbside", "takeout"]
 category: "eats"
 hours: "7:30am-3:30pm Tuesday through Friday. 9am-4pm Saturday"
 eatsType: "Cafe"

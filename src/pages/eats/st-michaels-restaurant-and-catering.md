@@ -2,7 +2,7 @@
 path: "/eats/st-michaels-restaurant-and-catering"
 title: "St. Michael's Restaurant and Catering"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside"
+orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-4pm Monday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "Catering"

@@ -2,7 +2,7 @@
 path: "/eats/la-hacienda"
 title: "La Hacienda"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, drive-thru, takeout"
+orderops: ["delivery", "drive-thru", "takeout"]
 category: "eats"
 hours: "11am-8pm Tuesday through Saturday"
 eatsType: "Mexican"

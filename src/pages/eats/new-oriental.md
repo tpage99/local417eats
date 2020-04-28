@@ -2,7 +2,7 @@
 path: "/eats/new-oriental"
 title: "New Oriental"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, takeout"
+orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "11am-9pm every day"
 eatsType: "Chinese"

@@ -2,7 +2,7 @@
 path: "/eats/la-boba-cafe"
 title: "La Boba Cafe"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout"
+orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "12pm-8pm every day"
 eatsType: "Smoothie and Juice Bar"

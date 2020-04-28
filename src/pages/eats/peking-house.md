@@ -2,7 +2,7 @@
 path: "/eats/peking-house"
 title: "Peking House"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, drive-thru, takeout, order online"
+orderops: ["delivery", "drive-thru", "takeout", "order online"]
 category: "eats"
 hours: "4pm-9pm every day"
 eatsType: "Chinese"

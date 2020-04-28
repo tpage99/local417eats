@@ -2,7 +2,7 @@
 path: "/eats/st-georges-donuts-sunshine"
 title: "St. George's Donuts - Sunshine"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, takeout"
+orderops: ["curbside", "takeout"]
 category: "eats"
 hours: "3am-2pm every day"
 eatsType: "Donut Shop"

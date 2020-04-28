@@ -2,7 +2,7 @@
 path: "/eats/craft-sushi"
 title: "Craft Sushi"
 image: "https://source.unsplash.com/JorKKx5rvA0/400x300"
-orderops: "delivery, takeout"
+orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"
 eatsType: "Sushi"

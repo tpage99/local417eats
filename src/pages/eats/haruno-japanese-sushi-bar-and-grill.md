@@ -2,7 +2,7 @@
 path: "/eats/haruno-japanese-sushi-bar-and-grill"
 title: "Haruno Japanese Sushi Bar and Grill"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "takeout"
+orderops: ["takeout"]
 category: "eats"
 hours: "11am-10:30pm Monday through Saturday. 11am-9pm Sunday"
 eatsType: "Japanese"

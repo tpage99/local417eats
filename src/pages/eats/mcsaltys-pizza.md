@@ -2,7 +2,7 @@
 path: "/eats/mcsaltys-pizza"
 title: "McSalty's Pizza"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout"
+orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-9pm Sunday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "Pizza"

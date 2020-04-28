@@ -2,7 +2,7 @@
 path: "/eats/golden-cuisine"
 title: "Golden Cuisine"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "drive-thru"
+orderops: ["drive-thru"]
 category: "eats"
 hours: "10:30am-8:30pm every day"
 eatsType: "Chinese"

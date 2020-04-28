@@ -2,7 +2,7 @@
 path: "/eats/los-cabos-mexican-grill-and-cantina"
 title: "Los Cabos Mexican Grill and Cantina"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "curbside, delivery, takeout"
+orderops: ["curbside", "delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Sunday through Thursday. 11am-9pm Friday and Saturday"
 eatsType: "Mexican"

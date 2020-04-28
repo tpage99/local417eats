@@ -2,7 +2,7 @@
 path: "/eats/queen-city-wine-dive"
 title: "Queen City Wine Dive"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, order online"
+orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-2pm and 4pm-8pm Tuesday through Saturday"
 eatsType: "Wine Bar"

@@ -2,7 +2,7 @@
 path: "/eats/billiards-of-springfield"
 title: "Billiards of Springfield"
 image: "https://source.unsplash.com/snnhGYNqm44/400x300"
-orderops: "curbside"
+orderops: ["curbside"]
 category: "eats"
 hours: "11am-1:30am Monday through Saturday. 11am-12am Sunday"
 eatsType: "Sports Bar"

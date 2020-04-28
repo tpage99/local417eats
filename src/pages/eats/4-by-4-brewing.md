@@ -2,7 +2,7 @@
 path: "/eats/4-by-4-brewing"
 title: "4 By 4 Brewing"
 image: "https://source.unsplash.com/NCmog4xinew/400x300"
-orderops: "curbside"
+orderops: ["curbside"]
 category: "eats"
 hours: "11am-8pm every day"
 eatsType: "Brewery"

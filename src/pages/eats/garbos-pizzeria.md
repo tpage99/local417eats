@@ -2,7 +2,7 @@
 path: "/eats/garbos-pizzeria"
 title: "Garbo's Pizzeria"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside"
+orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-8pm Tuesday through Sunday"
 eatsType: "Pizza"

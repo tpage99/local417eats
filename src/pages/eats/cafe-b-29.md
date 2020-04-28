@@ -2,7 +2,7 @@
 path: "/eats/cafe-b-29"
 title: "Cafe B-29"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside"
+orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
 eatsType: "American"

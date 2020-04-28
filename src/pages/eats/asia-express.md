@@ -2,7 +2,7 @@
 path: "/eats/asia-express"
 title: "Asia Express"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1587036952/local417eats/Asia-Express.original_1.jpg"
-orderops: "curbside, drive-thru, takeout"
+orderops: ["curbside", "drive-thru", "takeout"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
 eatsType: "Vietnamese"

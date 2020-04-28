@@ -2,7 +2,7 @@
 path: "/eats/antojos-tacos-y-mas"
 title: "Antojos Tacos y Mas"
 image: "https://source.unsplash.com/ZQf4jzkpz1k/400x300"
-orderops: "curbside, delivery"
+orderops: ["curbside", "delivery"]
 category: "eats"
 hours: "11am-8pm every day"
 eatsType: "Latin American"

@@ -2,7 +2,7 @@
 path: "/eats/sakura-japanese"
 title: "Sakura Japanese"
 image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: "delivery, curbside, takeout, order online"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-2:30pm and 4:30pm-8:30pm Tuesday through Friday. 12pm-8:30pm Saturday and Sunday"
 eatsType: "Japanese"
