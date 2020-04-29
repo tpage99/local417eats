@@ -52,7 +52,6 @@ module.exports = {
     //     chunkSize: 10000, // default: 1000
     //   },
     // },
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
