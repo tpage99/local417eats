@@ -7,18 +7,15 @@ import Logo from "../components/logo"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
-      <h1>
-        <Link to="/">
-          <div className="bg-gray-800">
-            <div className="px-4">
-              <Logo />
-            </div>
+    <h1>
+      <Link to="/">
+        <div className="bg-gray-800">
+          <div className="px-4 md:max-w-screen-sm m-auto">
+            <Logo />
           </div>
-        </Link>
-      </h1>
-    </div>
-    {/* <Search collapse indices={searchIndices} /> */}
+        </div>
+      </Link>
+    </h1>
   </header>
 )
 

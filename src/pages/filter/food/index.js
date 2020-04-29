@@ -11,7 +11,7 @@ const FilterFoodPage = () => (
       <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by food
       </h1>
-      <ul className="mx-auto text-center">
+      <ul className="mx-auto text-center md:max-w-screen-sm">
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/food/burgers"

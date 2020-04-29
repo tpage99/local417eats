@@ -1,6 +1,6 @@
 ---
-path: "/eats/4-by-4-brewing"
-title: "4 By 4 Brewing"
+path: "/eats/4-by-4-brewing-company"
+title: "4 By 4 Brewing Company"
 image: "https://source.unsplash.com/NCmog4xinew/400x300"
 orderops: ["curbside"]
 category: "eats"

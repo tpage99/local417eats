@@ -1,7 +1,7 @@
 ---
 path: "/eats/aviary-cafe-downtown"
 title: "Aviary Cafe - Downtown"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
+image: "https://source.unsplash.com/h1rfvAzzwdY/400x300"
 orderops: ["curbside", "delivery", "takeout"]
 category: "eats"
 hours: "9am to 2pm every day"

@@ -5,26 +5,26 @@ import FoodLayout from "../../../components/foodLayout"
 import SEO from "../../../components/seo"
 import OrderOps from "../../../components/orderOps"
 
-const FilterAmericanPage = ({ data }) => (
+const FilterFairGrovePage = ({ data }) => (
   <FoodLayout>
-    <SEO title="Filter by American Eats" />
+    <SEO title="Filter by Fair Grove area Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      Filtered results for "American"{" "}
+      Filtered results for "Fair Grove"{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
     </h1>
-    <ul className="pt-4 md:flex md:flex-wrap md:justify-center">
+    <ul className="pt-4">
       {data.allMarkdownRemark.edges.map(eats => (
         <li
-          className="mr-4 mb-4 md:w-1/3 xl:w-1/4 rounded-lg"
+          className="w-full pb-2 lg:max-w-full lg:flex rounded-lg"
           key={eats.node.id}
         >
           <Link
             to={eats.node.frontmatter.path}
             style={{ textDecoration: `none` }}
           >
-            <div className="md:h-auto md:w-full flex bg-cover rounded-t-md overflow-hidden border border-gray-400">
+            <div className="lg:h-auto lg:w-48 flex bg-cover rounded-t-md lg:rounded-t-none lg:rounded-l overflow-hidden border border-gray-400">
               <img
                 src={eats.node.frontmatter.image}
                 alt={eats.node.frontmatter.eatsType + " food"}
@@ -61,10 +61,10 @@ const FilterAmericanPage = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query FilterAmericanQuery {
+  query FilterFairGroveQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { frontmatter: { tags: { eq: "american" } } }
+      filter: { frontmatter: { tags: { eq: "fair grove" } } }
     ) {
       edges {
         node {
@@ -86,4 +86,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default FilterAmericanPage
+export default FilterFairGrovePage

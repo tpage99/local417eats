@@ -7,7 +7,7 @@ const Logo = () => {
     query {
       logoImage: file(relativePath: { eq: "local417eatslogo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }

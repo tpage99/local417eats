@@ -68,17 +68,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Local 417 Eats`,
+        short_name: `Local 417 Eats`,
+        description: `The one stop shop to find all the local restaurants in the Springfield, MO area. No chains. All local.`,
+        lang: `en`,
+        display: `standalone`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: `#ffe169`,
+        theme_color: `#2d3748`,
+        display: `standalone`,
+        icon: `src/images/local417eats-logo.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

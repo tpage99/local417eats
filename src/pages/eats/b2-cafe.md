@@ -1,7 +1,7 @@
 ---
 path: "/eats/b2-cafe"
 title: "B2 Cafe"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586635636/local417eats/local417eats.png"
+image: "https://source.unsplash.com/sBKLiRiunK0/400x300"
 orderops: ["curbside", "delivery"]
 category: "eats"
 hours: "8am to 4pm every day"
