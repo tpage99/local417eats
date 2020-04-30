@@ -14,24 +14,24 @@ const FilterOzarkPage = ({ data }) => (
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
     </h1>
-    <ul className="pt-4">
+    <ul className="pt-4 md:flex md:flex-wrap md:justify-center">
       {data.allMarkdownRemark.edges.map(eats => (
         <li
-          className="w-full pb-2 lg:max-w-full lg:flex rounded-lg"
+          className="mr-4 mb-4 md:w-1/3 xl:w-1/4 rounded-lg"
           key={eats.node.id}
         >
           <Link
             to={eats.node.frontmatter.path}
             style={{ textDecoration: `none` }}
           >
-            <div className="lg:h-auto lg:w-48 flex bg-cover rounded-t-md lg:rounded-t-none lg:rounded-l overflow-hidden border border-gray-400">
+            <div className="md:h-auto md:w-full flex bg-cover rounded-t-md overflow-hidden border border-gray-400">
               <img
                 src={eats.node.frontmatter.image}
                 alt={eats.node.frontmatter.eatsType + " food"}
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r px-4 py-2 flex flex-col justify-between leading-normal">
+            <div className="border-r border-b border-l border-gray-400 bg-white rounded-b px-4 py-2 flex flex-col justify-between leading-normal">
               <div className="mb-1">
                 <div className="mb-0 text-gray-900 font-bold text-xl leading-tight">
                   {eats.node.frontmatter.title}

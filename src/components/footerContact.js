@@ -1,7 +1,7 @@
 import React from "react"
 
 const footerContact = () => (
-  <div className="overflow-hidden shadow-lg p-4 m-auto bg-gray-100">
+  <div className="overflow-hidden shadow-lg p-4 m-auto bg-gray-100 md:max-w-screen-md">
     <div className="px-2 py-3 bg-gray-700 text-center rounded">
       <div className="font-bold text-xl mb-2 text-white underline">
         Contact Us For Updates

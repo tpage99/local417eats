@@ -5,11 +5,11 @@ import FoodLayout from "../../../components/foodLayout"
 import SEO from "../../../components/seo"
 import OrderOps from "../../../components/orderOps"
 
-const FilterDriveThruPage = ({ data }) => (
+const FilterCateringPage = ({ data }) => (
   <FoodLayout>
-    <SEO title="Filter by drive-thru ordering options" />
+    <SEO title="Filter by catering ordering options" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      Filtered results for "drive-thru" ordering options{" "}
+      Filtered results for "catering" ordering options{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
@@ -61,10 +61,10 @@ const FilterDriveThruPage = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query FilterDriveThruQuery {
+  query FilterCateringQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: { frontmatter: { orderops: { eq: "drive-thru" } } }
+      filter: { frontmatter: { tags: { eq: "catering" } } }
     ) {
       edges {
         node {
@@ -86,4 +86,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default FilterDriveThruPage
+export default FilterCateringPage

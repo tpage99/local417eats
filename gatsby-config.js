@@ -4,8 +4,6 @@ require("dotenv").config({
 
 const path = require(`path`)
 
-const queries = require("./src/utils/algolia")
-
 module.exports = {
   siteMetadata: {
     title: `Local 417 Eats`,
@@ -73,8 +71,8 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         start_url: `/`,
-        background_color: `#ffe169`,
-        theme_color: `#2d3748`,
+        background_color: `#2d3748`,
+        theme_color: `#ffe169`,
         display: `standalone`,
         icon: `src/images/local417eats-logo.png`, // This path is relative to the root of the site.
       },

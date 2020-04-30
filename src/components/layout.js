@@ -7,7 +7,7 @@ import Header from "./header"
 import Footer from "./footer"
 
 const PageContainer = tw.div`
-    text-xl w-11/12 mx-auto
+    text-xl w-11/12 mx-auto h-full
 `
 
 const Layout = ({ children }) => {
