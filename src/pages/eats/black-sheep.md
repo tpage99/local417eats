@@ -13,4 +13,4 @@ phone: "4173513595"
 tags: ["american", "burgers", "milkshakes"]
 ---
 
-Delivery available via carGO and GrubHub.
+Delivery available via carGO and [GrubHub](https://www.grubhub.com/restaurant/black-sheep-burgers--shakes-2160-w-chesterfield-st-springfield/1935005).

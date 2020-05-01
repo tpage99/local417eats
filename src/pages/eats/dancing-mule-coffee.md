@@ -1,7 +1,7 @@
 ---
 path: "/eats/dancing-mule-coffee"
 title: "Dancing Mule Coffee"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/X2s8GhnQmds/400x300"
 orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"

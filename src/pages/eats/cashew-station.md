@@ -1,7 +1,7 @@
 ---
 path: "/eats/cashew-station"
 title: "Cashew Station"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/jFu2L04tMBc/400x300"
 orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "11am-9pm every day"

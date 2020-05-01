@@ -1,7 +1,7 @@
 ---
 path: "/eats/black-market-smokehouse"
 title: "Black Market Smokehouse"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1588302993/local417eats/black_market_peace_maker.jpg"
 orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "11am-7pm Monday through Saturday"
@@ -13,4 +13,4 @@ phone: "4178315300"
 tags: ["bbq"]
 ---
 
-Delivery available via DoorDash.
+Delivery available via [DoorDash](https://www.doordash.com/store/Black-Market-Smokehouse--403754/en-US).

@@ -1,7 +1,7 @@
 ---
 path: "/eats/catrinas-mexican-kitchen-and-cantina"
 title: "Catrina's Mexican Kitchen and Cantina"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/bA3VwdUYduY/400x300"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday. 12pm-8pm Sunday"

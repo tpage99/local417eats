@@ -1,7 +1,7 @@
 ---
 path: "/eats/cedars-west"
 title: "Cedar's - West"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/YgirePmHPZU/400x300"
 orderops: ["curbside"]
 category: "eats"
 hours: "5am-8pm Monday through Saturday. 6am-2pm Sunday"

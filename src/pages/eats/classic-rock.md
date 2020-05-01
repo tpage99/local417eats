@@ -1,7 +1,7 @@
 ---
 path: "/eats/classic-rock"
 title: "Classic Rock"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/Y3AqmbmtLQI/400x300"
 orderops: ["takeout"]
 category: "eats"
 hours: "6am-8:30pm Monday through Wednesday. 6am-10pm Thursday. 6am-12am Friday. 7am-12am Saturday. 8am-6:30pm Sunday."

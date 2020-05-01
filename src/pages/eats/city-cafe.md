@@ -1,8 +1,8 @@
 ---
 path: "/eats/city-cafe"
 title: "City Cafe"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "curbside", "takeout"]
+image: "https://source.unsplash.com/zcUgjyqEwe8/400x300"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "9am-7pm Monday through Saturday. 9am-2pm Sunday"
 eatsType: "American"
@@ -13,4 +13,4 @@ phone: "4177201628"
 tags: ["american"]
 ---
 
-Delivery available via UberEats, carGO, Postmates and GrubHub.
+Delivery available via [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/city-cafe/LWR5p3m-THe6W8KAanHS1w), carGO, and [GrubHub](https://www.grubhub.com/restaurant/city-cafe-2129-w-republic-rd-springfield/708079).

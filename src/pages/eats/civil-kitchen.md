@@ -1,8 +1,8 @@
 ---
 path: "/eats/civil-kitchen"
 title: "Civil Kitchen"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "curbside", "takeout"]
+image: "https://source.unsplash.com/95YBr_WDsMM/400x300"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "9am-7pm Monday through Saturday. 9am-2pm Sunday"
 eatsType: "American"
@@ -13,4 +13,4 @@ phone: "4175018456"
 tags: ["american", "pub", "comfort food"]
 ---
 
-Delivery available via DoorDash and GrubHub.
+Delivery available via [GrubHub](https://www.grubhub.com/restaurant/civil-kitchen-107-park-central-square-springfield/2032371).

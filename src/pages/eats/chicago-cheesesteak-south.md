@@ -1,7 +1,7 @@
 ---
 path: "/eats/chicago-cheesesteak-south"
 title: "Chicago Cheesesteak Company - South"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/6fHRzS9yMj0/400x300"
 orderops: ["delivery", "takeout", "order online"]
 category: "eats"
 hours: "11am-7pm Sunday through Thursday. 11am-9pm Friday and Saturday"

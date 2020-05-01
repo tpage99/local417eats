@@ -1,7 +1,7 @@
 ---
 path: "/eats/cafe-b-29"
 title: "Cafe B-29"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/jofRmhSSqQo/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
@@ -10,7 +10,7 @@ website: "https://www.facebook.com/cafeb29"
 facebook: "https://www.facebook.com/cafeb29"
 address: "1751 W State Highway J Ozark, Missouri 65721"
 phone: "4174857500"
-tags: ["american"]
+tags: ["american", "ozark"]
 ---
 
 Delivery available via restaurant.

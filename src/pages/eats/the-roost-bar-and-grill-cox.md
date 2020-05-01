@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-roost-bar-and-grill-cox"
 title: "The Roost Bar and Grill - Cox"
-image: "https://source.unsplash.com/eGPlT_RXzi8/400x300"
+image: "https://source.unsplash.com/KojQfg8UdCE/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"

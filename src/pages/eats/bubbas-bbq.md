@@ -1,7 +1,7 @@
 ---
 path: "/eats/bubbas-bbq"
 title: "Bubba's BBQ"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/firiYA8fMiw/400x300"
 orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "11am-9pm Sunday through Thursday. 11am-10pm Friday and Saturday"

@@ -1,7 +1,7 @@
 ---
 path: "/eats/big-als-ozark"
 title: "Big Al's - Ozark"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/1Add_A_10Lw/400x300"
 orderops: ["delivery"]
 category: "eats"
 hours: "10:30am-2pm Monday through Friday"

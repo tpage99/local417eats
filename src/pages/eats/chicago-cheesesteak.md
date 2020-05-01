@@ -1,7 +1,7 @@
 ---
 path: "/eats/chicago-cheesesteak-downtown"
 title: "Chicago Cheesesteak Company - Downtown"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/mBu44hd3ea0/400x300"
 orderops: ["delivery", "takeout", "order online"]
 category: "eats"
 hours: "11am-2pm and 5pm-8pm Wednesday through Saturday"

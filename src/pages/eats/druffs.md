@@ -1,7 +1,7 @@
 ---
 path: "/eats/druffs"
 title: "Druff's"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/J8rOU9Igips/400x300"
 orderops: ["takeout", "order online"]
 category: "eats"
 hours: "11am-2pm Monday. 10am-7pm Tuesday through Friday. 8am-7pm Saturday and Sunday"

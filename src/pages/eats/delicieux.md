@@ -1,7 +1,7 @@
 ---
 path: "/eats/delicieux"
 title: "Delicieux"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/r-KfktlyBL0/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "7am-3pm Monday through Thursday. 7am-6pm Friday. 8am-3pm Saturday"

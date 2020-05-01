@@ -1,7 +1,7 @@
 ---
 path: "/eats/big-als-nixa"
 title: "Big Al's - Nixa"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/Gg5-K-mJwuQ/400x300"
 orderops: ["delivery"]
 category: "eats"
 hours: "10am-8pm Monday through Friday. 10am-6pm on Saturday"
