@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-coffee-ethic"
 title: "The Coffee Ethic"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/jE-27l7V3NU/400x300"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "8am-4pm every day"

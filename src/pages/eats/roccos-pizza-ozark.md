@@ -1,7 +1,7 @@
 ---
 path: "/eats/roccos-pizza-ozark"
 title: "Rocco's Pizza of Ozark"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/uZE2rfGBQo8/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "12pm-7pm every day"

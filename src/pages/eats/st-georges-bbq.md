@@ -1,7 +1,7 @@
 ---
 path: "/eats/st-georges-bbq"
 title: "St. George's BBQ"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/Yh9Ut4d3K0A/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "7am-9pm every day"

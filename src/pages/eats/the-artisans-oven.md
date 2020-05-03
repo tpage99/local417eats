@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-artisans-oven"
 title: "The Artisan's Oven"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/R3iAcQxylmE/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "7am-5:30pm Monday. 7am-4pm Tuesday through Thursday. 7am-2pm Friday"

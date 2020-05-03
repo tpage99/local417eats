@@ -1,7 +1,7 @@
 ---
 path: "/eats/reds-giant-hamburg"
 title: "Red's Giant Hamburg"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/sc5sTPMrVfk/400x300"
 orderops: ["drive-thru"]
 category: "eats"
 hours: "10am-10pm every day"

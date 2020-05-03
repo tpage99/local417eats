@@ -1,7 +1,7 @@
 ---
 path: "/eats/roccos-pizza-of-springfield-division"
 title: "Rocco's Pizza of Springfield - Division"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/uZE2rfGBQo8/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday. 3pm-8pm Sunday"

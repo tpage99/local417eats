@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-olive-branch"
 title: "The Olive Branch"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/sE6ihVGSd1Q/400x300"
 orderops: ["delivery", "order online", "takeout"]
 category: "eats"
 hours: "11am-7pm Tuesday through Saturday"

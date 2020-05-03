@@ -1,7 +1,7 @@
 ---
 path: "/eats/pizza-house"
 title: "Pizza House"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/z11dSXXlt8c/400x300"
 orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "11am-9pm Tuesday through Thursday. 11am-10pm Friday and Saturday"

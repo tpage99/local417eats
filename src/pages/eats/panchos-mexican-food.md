@@ -1,7 +1,7 @@
 ---
 path: "/eats/panchos-mexican-food"
 title: "Pancho's Mexican Food"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/MKDmq3zlaoA/400x300"
 orderops: ["delivery", "drive-thru", "order online"]
 category: "eats"
 hours: "8am-12:30am every day"

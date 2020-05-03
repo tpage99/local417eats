@@ -1,7 +1,7 @@
 ---
 path: "/eats/ozark-mountain-popcorn"
 title: "Ozark Mountain Popcorn"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/7NBHVCmfkUQ/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-4pm Tuesday through Saturday"

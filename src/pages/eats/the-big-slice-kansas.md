@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-big-slice-kansas"
 title: "The Big Slice - Kansas"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/OklpRh8-Sns/400x300"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "3pm-9pm Monday through Wednesday. 11am-9pm Thursday through Saturday"

@@ -1,7 +1,7 @@
 ---
 path: "/eats/tacos-el-gordo-national"
 title: "Tacos El Gordo - National"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/Wqgpy1qdV4c/400x300"
 orderops: ["takeout"]
 category: "eats"
 hours: "9am-8pm Monday through Saturday. 9am-5pm Sunday"

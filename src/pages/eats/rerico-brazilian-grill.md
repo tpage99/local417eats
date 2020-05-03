@@ -1,7 +1,7 @@
 ---
 path: "/eats/rerico-brazilian-grill"
 title: "Rerico Brazilian Grill"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/KQR3ENYfrpw/400x300"
 orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"

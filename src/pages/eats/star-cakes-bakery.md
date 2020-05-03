@@ -1,7 +1,7 @@
 ---
 path: "/eats/star-cakes-bakery"
 title: "Star Cakes Bakery"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/On2VseHUDXw/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-5:30pm Monday through Friday. 11am-4pm Saturday"
@@ -13,4 +13,4 @@ phone: "4175763757"
 tags: ["bakery", "cakes"]
 ---
 
-Delivery available via restaurant. 
+Delivery available via restaurant.

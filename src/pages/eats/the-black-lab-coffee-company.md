@@ -1,8 +1,8 @@
 ---
 path: "/eats/the-black-lab-coffee-company"
 title: "The Black Lab Coffee Company"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "curbside"]
+image: "https://source.unsplash.com/zTZRZV86GhE/400x300"
+orderops: ["delivery", "takeout"]
 category: "eats"
 hours: "6am-11:30am Monday through Saturday. 8am-12pm Sunday"
 eatsType: "Coffee"

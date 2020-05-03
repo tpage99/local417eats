@@ -1,7 +1,7 @@
 ---
 path: "/eats/rosie-jos-cafe"
 title: "Rosie Jo's Cafe"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/rj4lzGC4YcI/400x300"
 orderops: ["curbside", "takeout", "order online"]
 category: "eats"
 hours: "7am-8pm Monday through Saturday. 7am-2:30pm Sunday"

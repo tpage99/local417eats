@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-fat-cat-pizza-co"
 title: "The Fat Cat Pizza Co"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/P943SGF2aYc/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-2pm and 5pm-8pm Monday through Friday. 4pm-8pm Saturday"

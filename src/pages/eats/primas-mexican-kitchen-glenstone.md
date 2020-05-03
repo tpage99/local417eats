@@ -1,7 +1,7 @@
 ---
 path: "/eats/primas-mexican-kitchen-glenstone"
 title: "Prima's Mexican Kitchen - Glenstone"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/iNizWsa1HeM/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-8pm Monday through Thursday. 11am-9pm Friday and Saturday. 11am-7pm Sunday"

@@ -7,8 +7,9 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Local 417 Eats`,
-    description: `The one stop to find and support your favorite local 417 area restaurants. No chains. All local.`,
+    description: `The one stop to find and support your favorite locally owned and operated restaurants in the 417 area. No chains. All local.`,
     author: `@local417eats`,
+    image: `https://res.cloudinary.com/tpage99/image/upload/v1588521409/local417eats/local417eats-logo.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

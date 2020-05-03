@@ -1,7 +1,7 @@
 ---
 path: "/eats/piccolo"
 title: "Piccolo"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/ljVSRqHCP2U/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-8pm Tuesday through Saturday. 11am-4pm Sunday"

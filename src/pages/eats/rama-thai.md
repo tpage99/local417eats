@@ -1,7 +1,7 @@
 ---
 path: "/eats/rama-thai"
 title: "Rama Thai"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/YmyFBvW7oG8/400x300"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-2:30pm and 5pm-9pm every day"

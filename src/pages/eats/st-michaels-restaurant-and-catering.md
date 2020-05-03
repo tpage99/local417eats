@@ -1,7 +1,7 @@
 ---
 path: "/eats/st-michaels-restaurant-and-catering"
 title: "St. Michael's Restaurant and Catering"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/I2uJU-5ZIGI/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-4pm Monday through Thursday. 11am-10pm Friday and Saturday"
@@ -13,4 +13,4 @@ phone: "4178652315"
 tags: ["catering", "american"]
 ---
 
-Delivery available via [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/st-michaels-restaurant-and-catering/yWf_NBL3QSGCdPXswkBYIQ). 
+Delivery available via [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/st-michaels-restaurant-and-catering/yWf_NBL3QSGCdPXswkBYIQ).
