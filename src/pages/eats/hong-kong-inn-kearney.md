@@ -1,7 +1,7 @@
 ---
 path: "/eats/hong-kong-inn-kearney"
 title: "Hong Kong Inn - Kearney"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/s22ALHSKeys/400x300"
 orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "11am-10pm Monday through Thursday. 11am-10:30pm Friday and Saturday. 11am-9:30pm Sunday"

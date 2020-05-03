@@ -1,7 +1,7 @@
 ---
 path: "/eats/kingdom-coffee"
 title: "Kingdom Coffee"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/pMW4jzELQCw/400x300"
 orderops: ["curbside", "order online"]
 category: "eats"
 hours: "7am-4pm every day"

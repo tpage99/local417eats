@@ -1,8 +1,8 @@
 ---
 path: "/eats/normas-carriage-house"
 title: "Norma's Carriage House"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "curbside", "takeout"]
+image: "https://source.unsplash.com/pCxJvSeSB5A/400x300"
+orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "6am-9pm every day"
 eatsType: "American"

@@ -1,8 +1,8 @@
 ---
 path: "/eats/maes-gelateria"
 title: "Maes Gelateria"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "takeout"]
+image: "https://source.unsplash.com/X5u6snvBCf0/400x300"
+orderops: ["delivery", "takeout", "order online"]
 category: "eats"
 hours: "11am-7pm Monday through Thursday. 12pm-8pm Friday and Saturday"
 eatsType: "Ice Cream"

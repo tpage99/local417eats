@@ -1,7 +1,7 @@
 ---
 path: "/eats/everyday-thai"
 title: "Everyday Thai"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/oO3sXE73unQ/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "11am-2:30pm and 5pm-9pm Monday through Friday. 11am-9pm Saturday and Sunday"

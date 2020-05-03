@@ -1,7 +1,7 @@
 ---
 path: "/eats/jos-gathering-place"
 title: "Jo's Gathering Place"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/n8MSXvRCevM/400x300"
 orderops: ["takeout", "order online"]
 category: "eats"
 hours: "11am-2pm Monday through Friday"

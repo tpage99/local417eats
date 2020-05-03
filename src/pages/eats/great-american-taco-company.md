@@ -1,7 +1,7 @@
 ---
 path: "/eats/great-american-taco-company"
 title: "Great American Taco Company"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/JplMVRjzQVU/400x300"
 orderops: ["delivery", "drive-thru", "order online"]
 category: "eats"
 hours: "11am-7pm every day"

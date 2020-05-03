@@ -1,7 +1,7 @@
 ---
 path: "/eats/hinode-japanese-steakhouse-and-sushi"
 title: "Hinode Japanese Steakhouse and Sushi"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/qom5MPOER-I/400x300"
 orderops: ["curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-8pm Tuesday through Saturday"

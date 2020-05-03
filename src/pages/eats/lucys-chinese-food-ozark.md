@@ -1,7 +1,7 @@
 ---
 path: "/eats/lucys-chinese-food-ozark"
 title: "Lucy's Chinese Food - Ozark"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/JoUACiXcme4/400x300"
 orderops: ["drive-thru"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"

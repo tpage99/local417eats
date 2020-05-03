@@ -1,7 +1,7 @@
 ---
 path: "/eats/kearney-street-cafe"
 title: "Kearney Street Cafe"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/vLH4kF6czRg/400x300"
 orderops: ["curbside"]
 category: "eats"
 hours: "6am-9pm every day"

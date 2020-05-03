@@ -1,7 +1,7 @@
 ---
 path: "/eats/metropolitan-grill"
 title: "Metropolitan Grill"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/JclRLOp-r5E/400x300"
 orderops: ["delivery"]
 category: "eats"
 hours: "3pm-10pm Monday through Thursday. 3pm-11pm Friday. 4pm-11pm Saturday"

@@ -1,7 +1,7 @@
 ---
 path: "/eats/flat-creek"
 title: "Flat Creek"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/WxQ6ANA5gFI/400x300"
 orderops: ["curbside"]
 category: "eats"
 hours: "10:30am-10pm Sunday through Thursday. 10:30am-11pm Friday and Saturday"

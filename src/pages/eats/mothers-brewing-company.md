@@ -1,7 +1,7 @@
 ---
 path: "/eats/mothers-brewing-company"
 title: "Mother's Brewing Company"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/dmkmrNptMpw/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "12pm-7pm Tuesday through Saturday"

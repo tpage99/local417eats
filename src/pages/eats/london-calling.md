@@ -1,7 +1,7 @@
 ---
 path: "/eats/london-calling-pasty-company"
 title: "London Calling Pasty Company"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/4JY0X81wthg/400x300"
 orderops: ["food truck"]
 category: "eats"
 hours: "Hours vary"

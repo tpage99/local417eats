@@ -1,7 +1,7 @@
 ---
 path: "/eats/greek-belly"
 title: "Greek Belly"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/XLB5ICg_pJk/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
@@ -13,4 +13,4 @@ phone: "4175973382"
 tags: ["greek"]
 ---
 
-Delivery available via Postmates and UberEats.
+Delivery available via [Postmates](https://postmates.com/merchant/greek-belly-springfield) and [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/greek-belly/iKmuZ6MlRY-4NfxOpd-eWQ).

@@ -1,7 +1,7 @@
 ---
 path: "/eats/meals-by-monica"
 title: "Meals by Monica"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/EvoIiaIVRzU/400x300"
 orderops: ["delivery"]
 category: "eats"
 hours: "Always open"

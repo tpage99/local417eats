@@ -1,8 +1,8 @@
 ---
 path: "/eats/lucos-pizza"
 title: "Lucos Pizza"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
-orderops: ["delivery", "drive-thru"]
+image: "https://source.unsplash.com/oBbTc1VoT-0/400x300"
+orderops: ["delivery", "drive-thru", "order online"]
 category: "eats"
 hours: "11am-9pm Tuesday through Thursday. 11am-10pm Friday and Saturday. 11am-8pm Sunday"
 eatsType: "Pizza"

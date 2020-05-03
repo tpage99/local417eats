@@ -1,7 +1,7 @@
 ---
 path: "/eats/leongs-asian-diner"
 title: "Leong's Asian Diner"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/jxydD_kM0-4/400x300"
 orderops: ["curbside", "drive-thru", "takeout", "order online"]
 category: "eats"
 hours: "10am-9pm every day"

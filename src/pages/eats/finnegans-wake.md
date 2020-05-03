@@ -1,7 +1,7 @@
 ---
 path: "/eats/finnegans-wake"
 title: "Finnegan's Wake"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/eiOxQmYGQcA/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
 hours: "4pm-1:30am Tuesday through Friday. 10am-1:30am Saturday"

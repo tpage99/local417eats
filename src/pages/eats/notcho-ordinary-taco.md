@@ -1,7 +1,7 @@
 ---
 path: "/eats/notcho-ordinary-taco"
 title: "Not'cho Ordinary Taco"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/THWYaxfbX3Q/400x300"
 orderops: ["food truck"]
 category: "eats"
 hours: "Hours vary"

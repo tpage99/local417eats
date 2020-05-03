@@ -1,7 +1,7 @@
 ---
 path: "/eats/nicolas-ristorante"
 title: "Nicola's Ristorante"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/t8hTmte4O_g/400x300"
 orderops: ["takeout"]
 category: "eats"
 hours: "4:30pm-11pm Monday through Thursday. 4:30pm-1:00am Friday and Saturday"

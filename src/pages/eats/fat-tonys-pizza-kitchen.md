@@ -1,7 +1,7 @@
 ---
 path: "/eats/fat-tonys-pizza-kitchen"
 title: "Fat Tony's Pizza Kitchen"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/xbbUAWDzJi0/400x300"
 orderops: ["food truck"]
 category: "eats"
 hours: "Hours vary"

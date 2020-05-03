@@ -1,7 +1,7 @@
 ---
 path: "/eats/los-michoacanos-garcia"
 title: "Los Michoacanos Garcias"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/K7bd0WoYfoo/400x300"
 orderops: ["curbside", "delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"

@@ -1,7 +1,7 @@
 ---
 path: "/eats/hong-kong-inn-glenstone"
 title: "Hong Kong Inn - Glenstone"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/AjqhHqmDMqQ/400x300"
 orderops: ["drive-thru", "takeout"]
 category: "eats"
 hours: "11am-10pm Monday through Saturday. 11am-9:30pm Sunday"

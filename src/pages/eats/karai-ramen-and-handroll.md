@@ -1,7 +1,7 @@
 ---
 path: "/eats/karai-ramen-and-handroll"
 title: "Karai Ramen + Handroll"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/16uhRJI96Yw/400x300"
 orderops: ["curbside", "takeout"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"

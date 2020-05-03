@@ -1,7 +1,7 @@
 ---
 path: "/eats/j-parrinos-queen-city-deli"
 title: "J. Parrino's Queen City Deli"
-image: "https://res.cloudinary.com/tpage99/image/upload/v1586830151/local417eats/local417eatslogo.png"
+image: "https://source.unsplash.com/uhJfaJ6c9fY/400x300"
 orderops: ["delivery", "drive-thru", "takeout"]
 category: "eats"
 hours: "10:30am-8pm Monday through Saturday"
@@ -13,4 +13,4 @@ phone: "4178871778"
 tags: ["deli", "italian", "sandwich"]
 ---
 
-Delivery available via carGO, DoorDash, and GrubHub.
+Delivery available via carGO and [GrubHub](https://www.grubhub.com/restaurant/queen-city-deli-1647-e-sunshine-st-springfield/724658).
