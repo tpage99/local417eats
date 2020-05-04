@@ -10,6 +10,7 @@ module.exports = {
     description: `The one stop to find and support your favorite locally owned and operated restaurants in the 417 area. No chains. All local.`,
     author: `@local417eats`,
     image: `https://res.cloudinary.com/tpage99/image/upload/v1588521409/local417eats/local417eats-logo.png`,
+    siteUrl: `https://www.local417eats.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
