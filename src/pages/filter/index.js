@@ -7,7 +7,7 @@ import SEO from "../../components/seo"
 const FilterPage = () => (
   <Layout>
     <SEO title="Filter the Eats" />
-    <div className="mb-20 md:mb-64">
+    <div className="mb-40 md:mb-64">
       <h1 className="my-4 py-2 text-4xl font-bold text-center leading-tight">
         Filter results by...
       </h1>
