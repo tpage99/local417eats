@@ -1,7 +1,7 @@
 ---
 path: "/eats/the-press-coffee-and-juice-bar"
 title: "The Press Coffee and Juice Bar"
-image: "https://source.unsplash.com/MwerqSWTC9U/400x300"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1588727573/local417eats/thepresscoffeeandjuice.jpg"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "8am-7pm Monday through Saturday"
@@ -9,7 +9,7 @@ eatsType: "Coffee"
 website: "http://www.thecoffeeethic.com/"
 facebook: "https://www.facebook.com/TheCoffeeEthic"
 address: "124 Park Central Sq Springfield, Missouri 65806"
-phone: "4178666645"
+phone: "4177715950"
 tags: ["coffee", "smoothies"]
 ---
 

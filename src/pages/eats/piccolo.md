@@ -4,7 +4,7 @@ title: "Piccolo"
 image: "https://source.unsplash.com/ljVSRqHCP2U/400x300"
 orderops: ["delivery", "curbside"]
 category: "eats"
-hours: "11am-8pm Tuesday through Saturday. 11am-4pm Sunday"
+hours: "11am-8pm Tuesday through Saturday. 11am-8pm Sunday"
 eatsType: "Italian"
 website: "http://www.eatpiccolo.com/"
 facebook: "https://www.facebook.com/eatpiccolo"

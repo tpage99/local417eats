@@ -65,6 +65,14 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.local417eats.com",
+        sitemap: "https://www.local417eats.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Local 417 Eats`,

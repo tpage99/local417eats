@@ -1,7 +1,7 @@
 ---
 path: "/eats/sno-bubble-tea"
 title: "Sno Bubble Tea"
-image: "https://source.unsplash.com/Rsfz17HyiAg/400x300"
+image: "https://res.cloudinary.com/tpage99/image/upload/v1588727441/local417eats/snobubbletea.jpg"
 orderops: ["delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-7pm Monday through Saturday. 12pm-6pm Sunday"

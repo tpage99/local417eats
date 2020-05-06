@@ -18,6 +18,12 @@ const footer = () => (
         About
       </Link>
       <Link
+        to="/download"
+        className="mx-1 px-2 py-1 text-white text-center font-bold rounded bg-gray-700 rounded-full no-underline"
+      >
+        Download
+      </Link>
+      <Link
         to="/developer"
         className="mx-1 px-2 py-1 text-white text-center font-bold rounded bg-gray-700 rounded-full no-underline"
       >
