@@ -2,7 +2,7 @@
 path: "/eats/farmers-gastropub"
 title: "Farmer's Gastropub"
 image: "https://source.unsplash.com/ZP1dfOoSEi8/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["dine-in", "curbside", "takeout"]
 category: "eats"
 hours: "7am-9pm Monday through Thursday. 7am-10pm Friday and Saturday. 9am-3pm Sunday"
 eatsType: "Gastropub"

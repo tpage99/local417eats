@@ -2,7 +2,7 @@
 path: "/eats/vino-cellars"
 title: "Vino Cellars"
 image: "https://source.unsplash.com/PPneSBqfCCU/400x300"
-orderops: ["delivery", "curbside", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "Wine Bar"

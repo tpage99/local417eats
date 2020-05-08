@@ -2,7 +2,7 @@
 path: "/eats/civil-kitchen"
 title: "Civil Kitchen"
 image: "https://source.unsplash.com/95YBr_WDsMM/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "9am-7pm Monday through Saturday. 9am-2pm Sunday"
 eatsType: "American"

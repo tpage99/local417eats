@@ -2,7 +2,7 @@
 path: "/eats/the-pitch-pizza-and-pub"
 title: "The Pitch Pizza and Pub"
 image: "https://source.unsplash.com/zUhESFGjWgg/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "11am-10pm Monday through Saturday. 11am-9pm Sunday"
 eatsType: "Pizza"

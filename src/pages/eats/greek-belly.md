@@ -2,7 +2,7 @@
 path: "/eats/greek-belly"
 title: "Greek Belly"
 image: "https://source.unsplash.com/XLB5ICg_pJk/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
 eatsType: "Greek"

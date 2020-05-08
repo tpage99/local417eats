@@ -2,7 +2,7 @@
 path: "/eats/el-sombrero"
 title: "El Sombrero"
 image: "https://source.unsplash.com/Y0zbn9lPCEU/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday. 11am-8:30pm Sunday"
 eatsType: "Mexican"

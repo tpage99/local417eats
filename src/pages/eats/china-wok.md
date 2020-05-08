@@ -2,7 +2,7 @@
 path: "/eats/china-wok"
 title: "China Wok"
 image: "https://source.unsplash.com/71qSwepk8cs/400x300"
-orderops: ["delivery", "curbside"]
+orderops: ["dine-in", "delivery", "curbside"]
 category: "eats"
 hours: "11am-10pm every day"
 eatsType: "Chinese"

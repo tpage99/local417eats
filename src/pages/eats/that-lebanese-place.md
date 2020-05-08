@@ -2,7 +2,7 @@
 path: "/eats/that-lebanese-place"
 title: "That Lebanese Place"
 image: "https://source.unsplash.com/IgGFGxULsWg/400x300"
-orderops: ["delivery", "curbside"]
+orderops: ["dine-in", "delivery", "curbside"]
 category: "eats"
 hours: "3pm-7pm Monday through Saturday"
 eatsType: "Lebanese"

@@ -2,7 +2,7 @@
 path: "/eats/peking-house"
 title: "Peking House"
 image: "https://source.unsplash.com/q66grqqHpDQ/400x300"
-orderops: ["delivery", "drive-thru", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "drive-thru", "takeout", "order online"]
 category: "eats"
 hours: "4pm-9pm every day"
 eatsType: "Chinese"

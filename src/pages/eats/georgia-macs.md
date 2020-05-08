@@ -2,7 +2,7 @@
 path: "/eats/georgia-macs"
 title: "Georgia Mac's"
 image: "https://source.unsplash.com/z4xYT5fz8Hg/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "11am-1:15am Monday through Saturday. 11am-12am Sunday"
 eatsType: "Sports Bar"

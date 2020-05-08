@@ -2,7 +2,7 @@
 path: "/eats/big-als-ozark"
 title: "Big Al's - Ozark"
 image: "https://source.unsplash.com/1Add_A_10Lw/400x300"
-orderops: ["delivery"]
+orderops: ["dine-in", "delivery"]
 category: "eats"
 hours: "10:30am-2pm Monday through Friday"
 eatsType: "Sub Shop"

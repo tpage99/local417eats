@@ -2,7 +2,7 @@
 path: "/eats/progress"
 title: "Progress"
 image: "https://source.unsplash.com/rFYmnobNI6o/400x300"
-orderops: ["delivery", "curbside", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-7pm Tuesday through Saturday"
 eatsType: "American"

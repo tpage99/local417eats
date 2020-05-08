@@ -2,7 +2,7 @@
 path: "/eats/rerico-brazilian-grill"
 title: "Rerico Brazilian Grill"
 image: "https://source.unsplash.com/KQR3ENYfrpw/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"
 eatsType: "Brazilian"

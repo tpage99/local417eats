@@ -2,7 +2,7 @@
 path: "/eats/rosie-jos-cafe"
 title: "Rosie Jo's Cafe"
 image: "https://source.unsplash.com/rj4lzGC4YcI/400x300"
-orderops: ["curbside", "takeout", "order online"]
+orderops: ["dine-in", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "7am-8pm Monday through Saturday. 7am-2:30pm Sunday"
 eatsType: "American"

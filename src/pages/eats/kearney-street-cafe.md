@@ -2,7 +2,7 @@
 path: "/eats/kearney-street-cafe"
 title: "Kearney Street Cafe"
 image: "https://source.unsplash.com/vLH4kF6czRg/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "6am-9pm every day"
 eatsType: "American"

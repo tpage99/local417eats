@@ -2,7 +2,7 @@
 path: "/eats/city-cafe"
 title: "City Cafe"
 image: "https://source.unsplash.com/zcUgjyqEwe8/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "9am-7pm Monday through Saturday. 9am-2pm Sunday"
 eatsType: "American"

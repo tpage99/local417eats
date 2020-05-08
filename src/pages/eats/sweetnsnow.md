@@ -2,7 +2,7 @@
 path: "/eats/sweetnsnow"
 title: "SweetNSnow"
 image: "https://source.unsplash.com/kID9sxbJ3BQ/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "1pm-8pm every day"
 eatsType: "Ice Cream"

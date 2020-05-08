@@ -2,7 +2,7 @@
 path: "/eats/la-paloma-sunshine"
 title: "La Paloma - Sunshine"
 image: "https://source.unsplash.com/JyNjL71DIN8/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday. 11am-8:30pm Sunday"
 eatsType: "Mexican"

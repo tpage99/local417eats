@@ -2,7 +2,7 @@
 path: "/eats/kai-after-dark"
 title: "Kai After Dark"
 image: "https://source.unsplash.com/Z5tSnuGuTTw/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["dine-in", "curbside", "takeout"]
 category: "eats"
 hours: "5pm-11pm Monday through Saturday"
 eatsType: "Sushi"

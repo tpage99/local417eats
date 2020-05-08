@@ -2,7 +2,7 @@
 path: "/eats/springfield-ave-cafe"
 title: "Springfield Ave Cafe"
 image: "https://source.unsplash.com/BtLSvyFcBS4/400x300"
-orderops: ["delivery", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "takeout", "order online"]
 category: "eats"
 hours: "7am-9pm every day"
 eatsType: "American"

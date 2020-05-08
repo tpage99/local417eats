@@ -2,7 +2,7 @@
 path: "/eats/jose-locos-glenstone"
 title: "Jose Locos - Glenstone"
 image: "https://source.unsplash.com/T0KOa95rBGk/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "11am-10pm every day"
 eatsType: "Mexican"

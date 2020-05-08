@@ -2,7 +2,7 @@
 path: "/eats/cedars-south"
 title: "Cedar's - South"
 image: "https://source.unsplash.com/j2ofdcpPpP0/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "6am-8pm Monday through Saturday. 6am-2pm Sunday"
 eatsType: "American"

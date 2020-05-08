@@ -2,7 +2,7 @@
 path: "/eats/cedars-west"
 title: "Cedar's - West"
 image: "https://source.unsplash.com/YgirePmHPZU/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "5am-8pm Monday through Saturday. 6am-2pm Sunday"
 eatsType: "American"

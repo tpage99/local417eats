@@ -2,7 +2,7 @@
 path: "/eats/beths-bake-shoppe-and-tea-room"
 title: "Beth's Bake Shoppe and Tea Room"
 image: "https://source.unsplash.com/rS1GogPLVHk/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "10am-5pm Monday through Saturday"
 eatsType: "Bakery"

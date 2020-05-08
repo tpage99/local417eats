@@ -2,7 +2,7 @@
 path: "/eats/big-als-nixa"
 title: "Big Al's - Nixa"
 image: "https://source.unsplash.com/Gg5-K-mJwuQ/400x300"
-orderops: ["delivery"]
+orderops: ["dine-in", "delivery"]
 category: "eats"
 hours: "10am-8pm Monday through Friday. 10am-6pm on Saturday"
 eatsType: "Sub Shop"

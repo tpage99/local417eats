@@ -2,7 +2,7 @@
 path: "/eats/the-roost-bar-and-grill-sunshine"
 title: "The Roost Bar and Grill - Sunshine"
 image: "https://source.unsplash.com/hoUmVcrsCVU/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"
 eatsType: "American"

@@ -2,7 +2,7 @@
 path: "/eats/bubbas-bbq"
 title: "Bubba's BBQ"
 image: "https://source.unsplash.com/firiYA8fMiw/400x300"
-orderops: ["drive-thru", "takeout"]
+orderops: ["dine-in", "drive-thru", "takeout"]
 category: "eats"
 hours: "11am-9pm Sunday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "BBQ"

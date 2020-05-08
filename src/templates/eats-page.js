@@ -15,7 +15,7 @@ export default function Template({ data }) {
       <SEO title={eats.frontmatter.title} />
       <main>
         <Layout>
-          <div className="px-2">
+          <div className="px-2 md:max-w-screen-lg mx-auto text-left">
             <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
               {eats.frontmatter.title}
             </h1>

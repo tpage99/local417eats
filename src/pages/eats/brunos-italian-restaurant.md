@@ -2,7 +2,7 @@
 path: "/eats/brunos-italian-restaurant"
 title: "Bruno's Italian Restaurant"
 image: "https://source.unsplash.com/PLyJqEJVre0/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "4pm-10pm Monday through Saturday"
 eatsType: "Italian"

@@ -2,7 +2,7 @@
 path: "/eats/wf-codys"
 title: "W.F. Cody's"
 image: "https://source.unsplash.com/MjMLAst5pUI/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["dine-in", "curbside", "takeout"]
 category: "eats"
 hours: "11am-1:30pm every day"
 eatsType: "American"

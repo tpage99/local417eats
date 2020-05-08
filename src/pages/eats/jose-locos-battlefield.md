@@ -2,7 +2,7 @@
 path: "/eats/jose-locos-Battlefield"
 title: "Jose Locos - Battlefield"
 image: "https://source.unsplash.com/vw7cL9CyvlE/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "11am-10pm every day"
 eatsType: "Mexican"

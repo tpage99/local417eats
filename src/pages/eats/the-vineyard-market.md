@@ -2,7 +2,7 @@
 path: "/eats/the-vineyard-market"
 title: "The Vineyard Market"
 image: "https://source.unsplash.com/etWlaoFnTl4/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "10:30am-9pm Tuesday through Thursday. 10:30am-10pm Friday and Saturday"
 eatsType: "Winery"

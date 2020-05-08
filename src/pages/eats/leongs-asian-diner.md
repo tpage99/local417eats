@@ -2,7 +2,7 @@
 path: "/eats/leongs-asian-diner"
 title: "Leong's Asian Diner"
 image: "https://source.unsplash.com/jxydD_kM0-4/400x300"
-orderops: ["curbside", "drive-thru", "takeout", "order online"]
+orderops: ["dine-in", "curbside", "drive-thru", "takeout", "order online"]
 category: "eats"
 hours: "10am-9pm every day"
 eatsType: "Chinese"

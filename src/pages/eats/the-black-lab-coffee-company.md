@@ -2,7 +2,7 @@
 path: "/eats/the-black-lab-coffee-company"
 title: "The Black Lab Coffee Company"
 image: "https://source.unsplash.com/zTZRZV86GhE/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "6am-11:30am Monday through Saturday. 8am-12pm Sunday"
 eatsType: "Coffee"

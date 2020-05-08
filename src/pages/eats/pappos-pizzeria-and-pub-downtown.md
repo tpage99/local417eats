@@ -2,7 +2,7 @@
 path: "/eats/pappos-pizzeria-and-pub-downtown"
 title: "Pappo's Pizzeria and Pub - Downtown"
 image: "https://source.unsplash.com/UxRhrU8fPHQ/400x300"
-orderops: ["delivery", "curbside", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "order online"]
 category: "eats"
 hours: "11am-10pm Monday through Saturday. 11am-9pm Sunday"
 eatsType: "Pizza"

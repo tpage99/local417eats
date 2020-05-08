@@ -2,7 +2,7 @@
 path: "/eats/el-charro"
 title: "El Charro"
 image: "https://source.unsplash.com/lKaHOuEce1w/400x300"
-orderops: ["delivery", "drive-thru", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "drive-thru", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Thursday. 11am-10pm Friday and Saturday. 11am-8:30pm Sunday"
 eatsType: "Mexican"

@@ -2,7 +2,7 @@
 path: "/eats/pappys-place-bbq"
 title: "Pappy's Place BBQ"
 image: "https://source.unsplash.com/Mc5PsTdRXW8/400x300"
-orderops: ["delivery", "curbside", "takeout"]
+orderops: ["dine-in", "delivery", "curbside", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Thursday. 11am-10pm Friday and Saturday"
 eatsType: "BBQ"

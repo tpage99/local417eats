@@ -2,7 +2,7 @@
 path: "/eats/fds-grillhouse"
 title: "FD's Grillhouse"
 image: "https://source.unsplash.com/gwBcamFtPr4/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "3pm-8pm every day"
 eatsType: "American"

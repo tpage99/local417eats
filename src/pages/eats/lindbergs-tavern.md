@@ -2,7 +2,7 @@
 path: "/eats/lindbergs-tavern"
 title: "Lindberg's Tavern"
 image: "https://source.unsplash.com/gkMjf_XWTN4/400x300"
-orderops: ["curbside", "delivery"]
+orderops: ["dine-in", "curbside", "delivery"]
 category: "eats"
 hours: "11am-1am Tuesday through Saturday. 12pm-12am Sunday"
 eatsType: "Pub"

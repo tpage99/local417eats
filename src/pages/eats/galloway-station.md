@@ -2,7 +2,7 @@
 path: "/eats/galloway-station"
 title: "Galloway Station"
 image: "https://source.unsplash.com/uG2Sk558Q_g/400x300"
-orderops: ["takeout"]
+orderops: ["dine-in", "takeout"]
 category: "eats"
 hours: "11am-11pm Monday through Thursday. 11am-12pm Friday and Saturday"
 eatsType: "Bar and Grill"

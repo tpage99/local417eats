@@ -2,7 +2,7 @@
 path: "/eats/zayka-indian-cuisine"
 title: "Zayka Indian Cuisine"
 image: "https://source.unsplash.com/Q5mPPGld5Zk/400x300"
-orderops: ["delivery", "takeout"]
+orderops: ["dine-in", "delivery", "takeout"]
 category: "eats"
 hours: "5pm-9pm every day"
 eatsType: "Indian"

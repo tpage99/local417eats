@@ -2,7 +2,7 @@
 path: "/eats/los-michoacanos-garcia"
 title: "Los Michoacanos Garcias"
 image: "https://source.unsplash.com/K7bd0WoYfoo/400x300"
-orderops: ["curbside", "delivery", "takeout"]
+orderops: ["dine-in", "curbside", "delivery", "takeout"]
 category: "eats"
 hours: "11am-8pm Monday through Saturday"
 eatsType: "Mexican"

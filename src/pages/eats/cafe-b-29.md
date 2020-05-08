@@ -2,7 +2,7 @@
 path: "/eats/cafe-b-29"
 title: "Cafe B-29"
 image: "https://source.unsplash.com/jofRmhSSqQo/400x300"
-orderops: ["delivery", "curbside"]
+orderops: ["dine-in", "delivery", "curbside"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday"
 eatsType: "American"

@@ -2,7 +2,7 @@
 path: "/eats/dugout-bar-and-grill"
 title: "Dugout Bar and Grill"
 image: "https://source.unsplash.com/WCm4dFvZnMM/400x300"
-orderops: ["curbside"]
+orderops: ["dine-in", "curbside"]
 category: "eats"
 hours: "11am-12am Monday through Wednesday. 11am-1:30am Thursday through Saturday. 12pm-12am Sunday"
 eatsType: "Sports Bar"

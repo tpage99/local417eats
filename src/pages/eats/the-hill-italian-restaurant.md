@@ -2,7 +2,7 @@
 path: "/eats/the-hill-italian-restaurant"
 title: "The Hill Italian Restaurant"
 image: "https://source.unsplash.com/OY4BbUuNIeg/400x300"
-orderops: ["delivery", "drive-thru", "takeout"]
+orderops: ["dine-in", "delivery", "drive-thru", "takeout"]
 category: "eats"
 hours: "11am-2pm and 4:30pm-9pm Monday through Friday. 10am-9:30pm Saturday. 10am-8pm Sunday"
 eatsType: "Italian"

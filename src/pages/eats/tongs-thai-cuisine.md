@@ -2,7 +2,7 @@
 path: "/eats/tongs-thai-cuisine"
 title: "Tong's Thai Cuisine"
 image: "https://source.unsplash.com/GQqdcVeqCWA/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["dine-in", "curbside", "takeout"]
 category: "eats"
 hours: "11am-2:30pm and 5pm-10pm Monday through Saturday"
 eatsType: "Thai"

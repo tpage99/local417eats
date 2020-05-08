@@ -2,7 +2,7 @@
 path: "/eats/salavatores-fresh-ristorante"
 title: "Salvatore's Fresh Ristorante Italiano"
 image: "https://source.unsplash.com/fmZrchroLFo/400x300"
-orderops: ["delivery", "curbside", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-9pm Monday through Saturday. 11am-8pm Sunday"
 eatsType: "Italian"

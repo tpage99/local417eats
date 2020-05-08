@@ -2,7 +2,7 @@
 path: "/eats/the-rib-joint"
 title: "The Rib Joint"
 image: "https://source.unsplash.com/eGPlT_RXzi8/400x300"
-orderops: ["delivery", "takeout", "order online"]
+orderops: ["dine-in", "delivery", "takeout", "order online"]
 category: "eats"
 hours: "11am-5pm Monday 11am-6pm Tuesday through Thursday. 11am-7pm Friday"
 eatsType: "BBQ"

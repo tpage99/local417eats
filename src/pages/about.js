@@ -37,14 +37,40 @@ const AboutPage = () => (
         <p className="py-2">
           Local 417 Eats was started after seeing lots of great community
           efforts like the{" "}
-          <a href="https://www.springfieldmo.org/locally-owned-dining">
+          <a
+            href="https://www.springfieldmo.org/locally-owned-dining"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Springfield Missouri Convention and Visitors Buruea's local lists
           </a>{" "}
           or{" "}
-          <a href="https://bit.ly/supportSGFrestaurants">
+          <a
+            href="https://bit.ly/supportSGFrestaurants"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Kim Mossberger's exhaustive curated list of eateries still operating
           </a>{" "}
-          in this time of crisis.
+          in this time of crisis. Another great resource originated from a very
+          popular and helpful Facebook group is the{" "}
+          <a
+            href="https://welcometospringfieldmo.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Welcome to Springfield, MO website
+          </a>
+          . It lists both restaurants and other locally owned businesses. For a
+          map-based website that hosts tons of other resources, check out the{" "}
+          <a
+            href="https://sgfcovidsupport.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Community Resources Map for Springfield, MO website
+          </a>
+          .
         </p>
         <p className="py-2">
           Supporting local has always been important, but this crisis has taught

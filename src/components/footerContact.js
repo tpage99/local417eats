@@ -12,6 +12,8 @@ const footerContact = () => (
       </p>
       <button className="m-2 bg-white py-2 px-4 rounded-full">
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://forms.gle/7Eto4hncfoGnaEAX7"
           className="text-gray-700 no-underline"
         >
