@@ -15,7 +15,7 @@ const FilterOrderOpsPage = () => (
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/ordering-options/dine-in"
-            className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
           >
             Dine-in
           </Link>
@@ -23,7 +23,7 @@ const FilterOrderOpsPage = () => (
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/ordering-options/catering"
-            className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
           >
             Catering
           </Link>
@@ -31,7 +31,7 @@ const FilterOrderOpsPage = () => (
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/ordering-options/curbside"
-            className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
           >
             Curbside
           </Link>
@@ -39,7 +39,7 @@ const FilterOrderOpsPage = () => (
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
             to="/filter/ordering-options/delivery"
-            className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
           >
             Delivery
           </Link>

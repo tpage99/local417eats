@@ -10,7 +10,7 @@ website: "https://www.chicagocheesesteak.com/"
 facebook: "https://www.facebook.com/ChicagoCheesesteakSouth"
 address: "303 E Battlefield St Suite A Springfield, Missouri 65807"
 phone: "4177715775"
-tags: ["sandwich", "cheesesteak"]
+tags: ["sandwiches", "cheesesteak"]
 ---
 
 Delivery available via DoorDash, GrubHub, and Postmates.

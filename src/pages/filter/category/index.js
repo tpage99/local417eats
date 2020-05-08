@@ -22,10 +22,26 @@ const FilterCategoryPage = () => (
         </li>
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
+            to="/filter/category/asian-fusion"
+            className="text-white text-2xl font-semibold py-4 px-20 md:px-56 no-underline"
+          >
+            Asian Fusion
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
             to="/filter/category/bbq"
             className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
           >
             BBQ
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/category/cajun"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
+          >
+            Cajun
           </Link>
         </li>
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
@@ -58,6 +74,22 @@ const FilterCategoryPage = () => (
             className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
           >
             Mexican
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/category/sandwich-shop"
+            className="text-white text-2xl font-semibold py-4 px-20 md:px-48 no-underline"
+          >
+            Sandwich Shop
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
+            to="/filter/category/tex-mex"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
+          >
+            Tex-Mex
           </Link>
         </li>
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">

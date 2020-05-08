@@ -10,7 +10,7 @@ website: "https://www.chicagocheesesteak.com/"
 facebook: "https://www.facebook.com/chicagocheesesteak"
 address: "319 E Walnut St Springfield, Missouri 65806"
 phone: "4178651775"
-tags: ["sandwich", "cheesesteak"]
+tags: ["sandwiches", "cheesesteak"]
 ---
 
 Delivery available via DoorDash, GrubHub, and Postmates.

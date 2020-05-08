@@ -2,7 +2,7 @@
 path: "/eats/big-easy-grill"
 title: "Big Easy Grill"
 image: "https://source.unsplash.com/rBPtiHOY7nI/400x300"
-orderops: ["delivery", "curbside", "takeout"]
+orderops: ["dine-in", "delivery", "curbside", "takeout"]
 category: "eats"
 hours: "10:30am-2pm Monday through Friday"
 eatsType: "Cajun"
