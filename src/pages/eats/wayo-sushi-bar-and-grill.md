@@ -1,7 +1,7 @@
 ---
 path: "/eats/wayo-sushi-bar-and-grill"
 title: "Wayo Sushi Bar and Grill"
-image: "https://source.unsplash.com/MjMLAst5pUI/400x300"
+image: "https://source.unsplash.com/mOxYA6cfhLI/400x300"
 orderops: ["takeout"]
 category: "eats"
 hours: "12pm-7:30pm  Monday through Saturday"

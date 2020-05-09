@@ -1,7 +1,7 @@
 ---
 path: "/eats/delicieux"
 title: "Delicieux"
-image: "https://source.unsplash.com/r-KfktlyBL0/400x300"
+image: "https://source.unsplash.com/OfdDiqx8Cz8/400x300"
 orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "7am-3pm Monday through Thursday. 7am-6pm Friday. 8am-3pm Saturday"

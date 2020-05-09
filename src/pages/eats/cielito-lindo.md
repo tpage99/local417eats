@@ -1,7 +1,7 @@
 ---
 path: "/eats/cielito-lindo"
 title: "Cielito Lindo"
-image: "https://source.unsplash.com/vzX2rgUbQXM/400x300"
+image: "https://source.unsplash.com/IlAPq27FxZ0/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
 hours: "11am-8pm every day"

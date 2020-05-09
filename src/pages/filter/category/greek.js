@@ -5,11 +5,11 @@ import FoodLayout from "../../../components/foodLayout"
 import SEO from "../../../components/seo"
 import OrderOps from "../../../components/orderOps"
 
-const FilterSpringfieldPage = ({ data }) => (
+const FilterGreekPage = ({ data }) => (
   <FoodLayout>
-    <SEO title="Filter by Springfield area Eats" />
+    <SEO title="Filter by Greek Eats" />
     <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      Filtered results for "Springfield"{" "}
+      Filtered results for "Greek"{" "}
       <span className="font-light text-3xl">
         ({data.allMarkdownRemark.pageInfo.itemCount})
       </span>
@@ -61,26 +61,10 @@ const FilterSpringfieldPage = ({ data }) => (
 )
 
 export const pageQuery = graphql`
-  query FilterSpringfieldQuery {
+  query FilterGreekQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
-      filter: {
-        frontmatter: {
-          tags: {
-            nin: [
-              "republic"
-              "nixa"
-              "ozark"
-              "bolivar"
-              "willard"
-              "marshfield"
-              "rogersville"
-              "strafford"
-              "fair grove"
-            ]
-          }
-        }
-      }
+      filter: { frontmatter: { tags: { eq: "greek" } } }
     ) {
       edges {
         node {
@@ -102,4 +86,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default FilterSpringfieldPage
+export default FilterGreekPage

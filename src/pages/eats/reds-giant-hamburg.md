@@ -10,5 +10,5 @@ website: "https://www.facebook.com/Redshamburg"
 facebook: "https://www.facebook.com/Redshamburg"
 address: "2301 W Sunshine St Springfield, Missouri 65807"
 phone: "4178657337"
-tags: ["american", "hamburgers"]
+tags: ["american", "hamburgers", "ice cream"]
 ---
