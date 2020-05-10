@@ -12,7 +12,16 @@ export default function Template({ data }) {
   // above is same as using const eats = data.markdownRemark;
   return (
     <Fragment>
-      <SEO title={eats.frontmatter.title} />
+      <SEO
+        title={eats.frontmatter.title}
+        description={
+          "Local 417 Eats listing for " +
+          eats.frontmatter.title +
+          ", a locally owned and operated " +
+          eats.frontmatter.eatsType +
+          " restaurant in the Southwest Missouri area."
+        }
+      />
       <main>
         <Layout>
           <div className="px-2 md:max-w-screen-lg mx-auto text-left">

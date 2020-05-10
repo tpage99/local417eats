@@ -58,7 +58,7 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
-          name: `og:url`,
+          property: `og:url`,
           content: site.siteMetadata.siteUrl,
         },
         {
