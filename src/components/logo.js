@@ -15,7 +15,12 @@ const Logo = () => {
     }
   `)
 
-  return <Img fluid={data.logoImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.logoImage.childImageSharp.fluid}
+      alt="local 417 eats logo"
+    />
+  )
 }
 
 export default Logo

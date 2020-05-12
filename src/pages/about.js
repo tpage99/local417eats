@@ -120,7 +120,10 @@ const AboutPage = () => (
           <a href="https://jamstack.org/">JAMStack</a>, something we specialize
           in. This creates fast, efficient, and secure websites that have
           minimal hosting costs. Aside from paying for the domain, this website
-          costs $0/month to run. That's the power of the JAMStack.
+          costs $0/month to run until we run into some really significant web
+          traffic. And even when we do, scaling happens automatically so you
+          should never see a crashed server page as a user. That's the power of
+          the JAMStack.
         </p>
         <h3 className="py-2 text-2xl font-bold text-center leading-tight">
           No Seriously, How Can We Help You?

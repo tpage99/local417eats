@@ -1,93 +1,64 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import FoodLayout from "../components/foodLayout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
-import OrderOps from "../components/orderOps"
+import Image from "../components/image"
 
 const IndexPage = ({ data }) => (
-  <FoodLayout>
+  <Layout>
     <SEO title="Home" />
-    <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
-      All the Eats{" "}
-      <span className="font-light text-3xl">
-        ({data.allMarkdownRemark.pageInfo.itemCount})
-      </span>
-    </h1>
-    <ul className="pt-4 md:flex md:flex-wrap md:justify-center">
-      {data.allMarkdownRemark.edges.map(eats => (
-        <li
-          className="mr-4 mb-4 md:w-1/3 xl:w-1/4 rounded-lg"
-          key={eats.node.id}
+    <section className="mx-auto md:max-w-screen-lg">
+      <h1 className="mb-0 py-2 text-4xl font-bold text-center leading-tight">
+        No Chains. No Franchises. All Local.
+      </h1>
+      <p className="py-2">
+        Local 417 Eats is the easiest way to find local restaurants in Southwest
+        Missouri that are the definition of <em>local</em>.
+      </p>
+      <div
+        className="mx-auto md:h-auto md:w-full bg-cover rounded-t-md overflow-hidden border border-gray-400"
+        style={{ maxWidth: `600px` }}
+      >
+        <Image />
+      </div>
+      <p className="py-2">
+        All restaurants are locally owned and operated without any help from
+        major corporations or chains. These are our friends and neighbors.
+      </p>
+      <h2 className="py-2 text-3xl font-bold text-center leading-tight underline">
+        Support Local
+      </h2>
+      <div className="mx-auto mt-4 mb-8 text-center">
+        <Link
+          to="/all/"
+          className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-2 px-6 border border-gray-400 rounded-full shadow no-underline  align-middle"
         >
-          <Link
-            to={eats.node.frontmatter.path}
-            style={{ textDecoration: `none` }}
-          >
-            <div className="md:h-auto md:w-full flex bg-cover rounded-t-md overflow-hidden border border-gray-400">
-              <img
-                src={eats.node.frontmatter.image}
-                alt={
-                  eats.node.frontmatter.eatsType +
-                  " food. Image courtesy of Unsplash"
-                }
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="border-r border-b border-l border-gray-400 bg-white rounded-b px-4 py-2 flex flex-col justify-between leading-normal">
-              <div className="mb-1">
-                <div className="mb-0 text-gray-900 font-bold text-xl leading-tight">
-                  {eats.node.frontmatter.title}
-                </div>
-                <p className="mt-0 mb-2 text-sm text-gray-600 flex items-center">
-                  {eats.node.frontmatter.eatsType}
-                </p>
-              </div>
-              <div className="text-sm">
-                <div className="inline-block pb-2">
-                  <p className="text-gray-700 inline">Ordering Options: </p>
-                  <OrderOps orderops={eats.node.frontmatter.orderops} />
-                </div>
-                <p className="text-gray-700 leading-tight">
-                  Hours:{" "}
-                  <span className="text-black">
-                    {eats.node.frontmatter.hours}
-                  </span>
-                </p>
-              </div>
-            </div>
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </FoodLayout>
+          Show all <span>{data.allMarkdownRemark.pageInfo.itemCount}</span> Eats
+        </Link>
+      </div>
+      <div className="mx-auto my-8 text-center">
+        <Link
+          to="/filter/"
+          className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-2 px-6 border border-gray-400 rounded-full shadow no-underline"
+        >
+          Filter Results
+        </Link>
+      </div>
+    </section>
+  </Layout>
 )
 
 export const pageQuery = graphql`
-  query EatsQuery {
+  query IndexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___title], order: ASC }
       filter: { frontmatter: { category: { eq: "eats" } } }
     ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            path
-            title
-            eatsType
-            image
-            hours
-            orderops
-            tags
-          }
-        }
-      }
       pageInfo {
         itemCount
       }
     }
   }
 `
-
 export default IndexPage

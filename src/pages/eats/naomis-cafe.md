@@ -2,7 +2,7 @@
 path: "/eats/naomis-cafe"
 title: "Naomi's Cafe"
 image: "https://source.unsplash.com/CK6tjAIMJWM/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["delivery", "curbside", "takeout"]
 category: "eats"
 hours: "7am-9pm every day"
 eatsType: "American"
@@ -12,3 +12,5 @@ address: "104 W Jackson St, Willard, MO 65781"
 phone: "4176853259"
 tags: ["american", "bbq", "willard"]
 ---
+
+Delivery available via restaurant.
