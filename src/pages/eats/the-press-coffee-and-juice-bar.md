@@ -13,4 +13,4 @@ phone: "4177715950"
 tags: ["coffee", "smoothies"]
 ---
 
-Re-opening May 6, 2020. Delivery available via [DoorDash](https://www.doordash.com/en-US), [Postmates](https://postmates.com/delivery/springfield-mo), and carGO. Online ordering also available via [Cloosiv app](https://www.cloosiv.com/).
+Re-opening May 6, 2020. Delivery available via [DoorDash](https://www.doordash.com/en-US) and carGO. Online ordering also available via [Cloosiv app](https://www.cloosiv.com/).

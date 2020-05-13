@@ -13,4 +13,4 @@ phone: "4175973382"
 tags: ["greek"]
 ---
 
-Delivery available via [Postmates](https://postmates.com/merchant/greek-belly-springfield) and [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/greek-belly/iKmuZ6MlRY-4NfxOpd-eWQ).
+Delivery available via [UberEats](https://www.ubereats.com/springfield-mo/food-delivery/greek-belly/iKmuZ6MlRY-4NfxOpd-eWQ).

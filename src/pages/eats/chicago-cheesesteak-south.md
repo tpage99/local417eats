@@ -13,4 +13,4 @@ phone: "4177715775"
 tags: ["sandwiches", "cheesesteak"]
 ---
 
-Delivery available via DoorDash, GrubHub, and Postmates.
+Delivery available via [GrubHub](https://www.grubhub.com/restaurant/chicago-cheesesteak-company-303-e-battlefield-rd-ste-a-springfield/1186864).

@@ -10,7 +10,7 @@ website: "http://mamalocascafeandcantina.food73.com/"
 facebook: "https://www.facebook.com/Mama-Locas-Cafe-Cantina-185030508190611"
 address: "111 W Main St Ash Grove, Missouri 65604"
 phone: "4176722200"
-tags: ["mexican", "cafe", "tacos", "burrito", "enchilada"]
+tags: ["mexican", "cafe", "tacos", "burrito", "enchilada", "ash grove"]
 ---
 
 Delivery available via restaurant.

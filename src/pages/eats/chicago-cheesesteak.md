@@ -12,5 +12,3 @@ address: "319 E Walnut St Springfield, Missouri 65806"
 phone: "4178651775"
 tags: ["sandwiches", "cheesesteak"]
 ---
-
-Delivery available via DoorDash, GrubHub, and Postmates.

@@ -13,23 +13,24 @@ const IndexPage = ({ data }) => (
         No Chains. No Franchises. All Local.
       </h1>
       <p className="py-2">
-        Local 417 Eats is the easiest way to find local restaurants in Southwest
-        Missouri that are the definition of <em>local</em>.
+        Local 417 Eats is the easiest way to find restaurants in the Southwest
+        Missouri area that are the definition of <em>local</em>.
       </p>
       <div
-        className="mx-auto md:h-auto md:w-full bg-cover rounded-t-md overflow-hidden border border-gray-400"
+        className="mx-auto md:h-auto md:w-full bg-cover rounded overflow-hidden border border-gray-400"
         style={{ maxWidth: `600px` }}
       >
         <Image />
       </div>
       <p className="py-2">
-        All restaurants are locally owned and operated without any help from
-        major corporations or chains. These are our friends and neighbors.
+        All restaurants promoted on this site are locally owned and operated
+        without any help from major corporations or chains.
       </p>
+      <p className="py-2">These are our friends and neighbors.</p>
       <h2 className="py-2 text-3xl font-bold text-center leading-tight underline">
-        Support Local
+        [ Support Local ]
       </h2>
-      <div className="mx-auto mt-4 mb-8 text-center">
+      <div className="mx-auto my-8 text-center">
         <Link
           to="/all/"
           className="bg-gray-700 hover:bg-gray-500 text-white text-2xl font-semibold py-2 px-6 border border-gray-400 rounded-full shadow no-underline  align-middle"

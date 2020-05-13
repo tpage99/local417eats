@@ -13,4 +13,4 @@ phone: "4178321720"
 tags: ["coffee"]
 ---
 
-Delivery available via [DoorDash](https://www.doordash.com/store/mudhosue-coffee-springfield-944813/en-US), [GrubHub](https://www.grubhub.com/restaurant/mudhouse-coffee-and-tea-323-south-ave-springfield/2017414), and [Postmates](https://postmates.com/merchant/mud-house-springfield).
+Delivery available via [DoorDash](https://www.doordash.com/store/mudhosue-coffee-springfield-944813/en-US) and [GrubHub](https://www.grubhub.com/restaurant/mudhouse-coffee-and-tea-323-south-ave-springfield/2017414).

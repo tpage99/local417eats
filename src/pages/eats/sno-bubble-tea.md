@@ -13,4 +13,4 @@ phone: "4172105169"
 tags: ["bubble tea", "coffee", "waffles"]
 ---
 
-Delivery available via [DoorDash](https://www.doordash.com/en-US), [Postmates](https://postmates.com/delivery/springfield-mo), and carGO. Online ordering also available via [Cloosiv app](https://www.cloosiv.com/).
+Delivery available via [DoorDash](https://www.doordash.com/en-US) and carGO. Online ordering also available via [Cloosiv app](https://www.cloosiv.com/).

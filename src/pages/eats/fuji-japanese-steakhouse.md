@@ -13,4 +13,4 @@ phone: "4178890088"
 tags: ["japanese", "steakhouse", "sushi"]
 ---
 
-Delivery available via DoorDash and Postmates.
+Delivery available via [DoorDash](https://www.doordash.com/store/fuji-japanese-steakhouse-sushi-sandy-130337/en-US).

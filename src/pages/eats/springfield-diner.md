@@ -13,4 +13,4 @@ phone: "4177557382"
 tags: ["diner", "burgers", "breakfast", "american"]
 ---
 
-Delivery available via [DoorDash](https://www.doordash.com/store/springfield-diner-springfield-403765/594513/), [Postmates](https://postmates.com/merchant/springfield-diner-springfield), and [UberEats](https://www.ubereats.com/en-US/springfield-mo/food-delivery/springfield-diner/cd7Xj7tTS1mMLGWpEnV-Mw/).
+Delivery available via [DoorDash](https://www.doordash.com/store/springfield-diner-springfield-403765/594513/) and [UberEats](https://www.ubereats.com/en-US/springfield-mo/food-delivery/springfield-diner/cd7Xj7tTS1mMLGWpEnV-Mw/).

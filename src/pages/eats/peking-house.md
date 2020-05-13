@@ -13,4 +13,4 @@ phone: "4173680000"
 tags: ["chinese"]
 ---
 
-Delivery available via [DoorDash](https://www.doordash.com/store/peking-house-springfield-403826/en-US) and [Postmates](https://postmates.com/merchant/peking-house-springfield).
+Delivery available via [DoorDash](https://www.doordash.com/store/peking-house-springfield-403826/en-US).
