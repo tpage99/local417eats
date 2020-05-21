@@ -22,7 +22,7 @@ const SEOEats = ({ title, description }) => {
         name="twitter:image:alt"
         content="local 417 eats logo with text and a project of pages media underneath"
       />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@local417eats" />
       <meta property="og:site_name" content="Local 417 Eats" />
     </Helmet>
