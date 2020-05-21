@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 
-import SEO from "../components/seo"
+import SEOEats from "../components/seoEats"
 import Layout from "../components/layout"
 import OrderOps from "../components/orderOps"
 import FooterContact from "../components/footerContact"
@@ -12,7 +12,7 @@ export default function Template({ data }) {
   // above is same as using const eats = data.markdownRemark;
   return (
     <Fragment>
-      <SEO
+      <SEOEats
         title={eats.frontmatter.title}
         description={
           "Local 417 Eats listing for " +

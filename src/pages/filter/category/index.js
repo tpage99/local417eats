@@ -78,6 +78,14 @@ const FilterCategoryPage = () => (
         </li>
         <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
           <Link
+            to="/filter/category/food-truck"
+            className="text-white text-2xl font-semibold py-4 px-24 md:px-56 no-underline"
+          >
+            Food Truck
+          </Link>
+        </li>
+        <li className="mx-1 my-4 bg-gray-700 hover:bg-gray-500 rounded-full py-4 border border-gray-400 shadow-lg">
+          <Link
             to="/filter/category/greek"
             className="text-white text-2xl font-semibold py-4 px-32 md:px-64 no-underline"
           >
