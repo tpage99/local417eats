@@ -2,9 +2,9 @@
 path: "/eats/piccolo"
 title: "Piccolo"
 image: "https://source.unsplash.com/ljVSRqHCP2U/400x300"
-orderops: ["delivery", "curbside"]
+orderops: ["dine-in", "delivery", "curbside"]
 category: "eats"
-hours: "11am-8pm Tuesday through Saturday. 11am-8pm Sunday"
+hours: "4pm-9pm Tuesday through Thursday. 4pm-10pm Friday. 11am-10pm Saturday. 11am-9pm Sunday"
 eatsType: "Italian"
 website: "http://www.eatpiccolo.com/"
 facebook: "https://www.facebook.com/eatpiccolo"

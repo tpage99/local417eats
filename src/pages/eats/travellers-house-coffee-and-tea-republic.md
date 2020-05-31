@@ -2,7 +2,7 @@
 path: "/eats/travellers-house-coffee-and-tea-republic"
 title: "Traveller's House Coffee and Tea - Republic"
 image: "https://source.unsplash.com/nBJHO6wmRWw/400x300"
-orderops: ["curbside", "takeout"]
+orderops: ["dine-in", "curbside", "takeout"]
 category: "eats"
 hours: "6am-6pm Monday through Saturday. 7am-1pm Sunday"
 eatsType: "Coffee"

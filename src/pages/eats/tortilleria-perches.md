@@ -2,9 +2,9 @@
 path: "/eats/tortilleria-perches"
 title: "Tortilleria Perches"
 image: "https://source.unsplash.com/u6oot_dGiug/400x300"
-orderops: ["delivery", "curbside", "takeout"]
+orderops: ["dine-in", "delivery", "curbside", "takeout"]
 category: "eats"
-hours: "11am-9pm Tuesday through Thursday. 11am-10pm Friday and Saturday. 10am-4pm Sunday"
+hours: "11am-8pm Tuesday through Saturday. 10am-4pm Sunday"
 eatsType: "Mexican"
 website: "http://www.tortilleriaperches.com/"
 facebook: "https://www.facebook.com/tortilleriaperches"
@@ -13,4 +13,4 @@ phone: "4178648195"
 tags: ["mexican", "tacos"]
 ---
 
-Delivery available via restaurant.
+Delivery available via restaurant. Dine-in starting June 2nd, 2020.
