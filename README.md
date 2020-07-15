@@ -8,7 +8,8 @@ Only thing you should need is the [Gatsby CLI](https://www.gatsbyjs.org/docs/qui
 Get started by running the following commands:
 
 ```
-$ git clone git@github.com:tpage99/local417eats.git
+$ git clone https://github.com/tpage99/local417eats.git
+$ cd local417eats
 $ npm install
 $ gatsby develop
 ```
@@ -24,7 +25,7 @@ This project uses several environment variables for development. You will need t
 Current environment variables required to function properly:
 
 - Google Maps API
-- Algolia Search
+- ~~Algolia Search~~
 
 ## Resources 📕
 
@@ -43,7 +44,7 @@ API keys and other items managed from [Google Cloud Platform Dashboard](https://
 
 ### Search with Algolia
 
-Decided to use Algolia for search (?Maybe?). Mainly because they have a free tier and will help speed up development. Not to mention it's a well-liked service with plenty of features.
+~~Decided to use Algolia for search. Mainly because they have a free tier~~ Decided against using Algolia at the moment. May consider some other options like Google's search option later on or building in something simpler.
 
 - [Adding Search with Algolia from Gatsby Docs](https://www.gatsbyjs.org/docs/adding-search-with-algolia/)
 

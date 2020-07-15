@@ -4,7 +4,7 @@ title: "Tinga Tacos"
 image: "https://source.unsplash.com/OGJp-AJeIoM/400x300"
 orderops: ["delivery", "curbside", "takeout", "order online"]
 category: "eats"
-hours: "11am-7:30pm Tuesday and Saturday"
+hours: "11am-9pm Tuesday and Wednesday. 11am-2am Thursday through Saturday"
 eatsType: "Mexican"
 website: "http://Tingatacossgf.com/"
 facebook: "https://www.facebook.com/Tingatacos"
