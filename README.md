@@ -1,3 +1,13 @@
+# End of an Era
+
+Local 417 Eats never really took off like we hoped. It was a fun project, born out of COVID to help the local community more easily access information about local restaurants. But now, it's not needed and it's no longer maintained so it's not helpful to have inaccurate information.
+
+So, it's time to say goodbye.
+
+Thanks for the memories!
+
+## Legacy Notes
+
 A Gatsby site built to support local Springfield, MO area restaurants and businesses.
 
 ## 🚀 Quickstart
